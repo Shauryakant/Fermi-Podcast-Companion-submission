@@ -10,7 +10,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 try:
     from rag import answer
@@ -138,12 +137,6 @@ for idx, turn in enumerate(st.session_state.history):
                 else:
                     file_id = EPISODE_DRIVE_IDS.get(episode_id)
                     if file_id:
-                        # Direct Streamlit native audio player using Google Drive stream link
-                        stream_url = f"https://docs.google.com/uc?export=download&id={file_id}"
+                        # Direct MP3 audio stream from Google Drive with exact timestamp seeking
+                        stream_url = f"https://drive.google.com/uc?export=open&id={file_id}"
                         st.audio(stream_url, start_time=int(start))
-                        
-                        # Embedded Google Drive specific single-file preview player
-                        embed_code = f"""
-                        <iframe src="https://drive.google.com/file/d/{file_id}/preview" width="100%" height="90" style="border:none; border-radius:8px;"></iframe>
-                        """
-                        components.html(embed_code, height=100)
