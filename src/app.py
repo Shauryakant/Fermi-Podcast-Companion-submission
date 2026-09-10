@@ -19,12 +19,18 @@ except ImportError:
 
 st.set_page_config(page_title="Fermi Podcast Companion", layout="wide", page_icon="🎙️")
 
-# Ingested episodes list
+# Ingested episodes list & Google Drive direct file mappings
 EPISODE_OPTIONS = {
     "All episodes (no filter)": "All Episodes",
     "Great Papers 01 - Einstein's Special Relativity": "Great Papers 01 - Einstein's Special Relativity",
     "Great Papers 02 - How Black Holes Radiate, Hawking 1975": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
     "Great Papers 03 - The Double Helix, Watson and Crick 1953": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+}
+
+EPISODE_DRIVE_IDS = {
+    "Great Papers 01 - Einstein's Special Relativity": "1-U8FAmjK2A77WqXfFEZRMxA5PC6iM0Zo",
+    "Great Papers 02 - How Black Holes Radiate, Hawking 1975": "1P2VOTS4PBGw3ZZ9xMl6OHIUl7BngyMoN",
+    "Great Papers 03 - The Double Helix, Watson and Crick 1953": "16ZVzZZGmXkehvgtvLvtuEXic93ufNuJd",
 }
 
 SAMPLE_QUESTIONS = [
@@ -126,11 +132,18 @@ for idx, turn in enumerate(st.session_state.history):
                 secs = int(start % 60)
                 
                 st.markdown(f"**Audio Source:** *{episode_id}* @ `{mins:02d}:{secs:02d}`")
+                
                 if os.path.exists(audio_path):
                     st.audio(audio_path, start_time=int(start))
                 else:
-                    drive_folder_id = "1dCXk1c93aRVEvNBx-4_6QxeBDqw-ZoDU"
-                    embed_code = f"""
-                    <iframe src="https://drive.google.com/embeddedfolderview?id={drive_folder_id}#list" width="100%" height="180" style="border:1px solid #333; border-radius:8px;"></iframe>
-                    """
-                    components.html(embed_code, height=200)
+                    file_id = EPISODE_DRIVE_IDS.get(episode_id)
+                    if file_id:
+                        # Direct Streamlit native audio player using Google Drive stream link
+                        stream_url = f"https://docs.google.com/uc?export=download&id={file_id}"
+                        st.audio(stream_url, start_time=int(start))
+                        
+                        # Embedded Google Drive specific single-file preview player
+                        embed_code = f"""
+                        <iframe src="https://drive.google.com/file/d/{file_id}/preview" width="100%" height="90" style="border:none; border-radius:8px;"></iframe>
+                        """
+                        components.html(embed_code, height=100)
