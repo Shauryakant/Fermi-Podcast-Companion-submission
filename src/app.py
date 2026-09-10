@@ -9,11 +9,23 @@ Run with:
     streamlit run src/app.py
 """
 
+import os
+from pathlib import Path
+
 import streamlit as st
 
 from rag import answer
 
 st.set_page_config(page_title="Fermi Podcast Companion", layout="centered")
+
+# data/index/ is gitignored (it's rebuildable, not meant to be shipped), so
+# on a fresh deploy it won't exist yet. Rebuild it once from the committed
+# data/chunks/ files before the app does anything else.
+if not Path("data/index").exists() or not any(Path("data/index").iterdir()):
+    with st.spinner("First-time setup: building the search index from transcripts..."):
+        import index as index_stage
+        index_stage.main()
+
 st.title("Fermi Podcast Companion")
 st.caption("Ask questions across the supplied episodes. Answers are grounded in the transcripts only.")
 
@@ -44,4 +56,11 @@ if "last_result" in st.session_state and st.session_state.last_result["citations
 if st.session_state.jump_to:
     episode_id, start = st.session_state.jump_to
     audio_path = f"data/audio/{episode_id}.mp3"
-    st.audio(audio_path, start_time=int(start))
+    if os.path.exists(audio_path):
+        st.audio(audio_path, start_time=int(start))
+    else:
+        st.info(
+            f"Audio playback isn't available in this deployment (the mp3 files "
+            f"aren't hosted here), but the citation points to "
+            f"**{episode_id} @ {start:.0f}s** in the original episode."
+        )
