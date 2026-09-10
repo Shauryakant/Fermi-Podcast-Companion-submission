@@ -18,7 +18,7 @@ except ImportError:
 
 st.set_page_config(page_title="Fermi Podcast Companion", layout="wide", page_icon="🎙️")
 
-# Ingested episodes list & Google Drive direct file mappings
+# Ingested episodes list & GitHub Release direct audio stream mappings
 EPISODE_OPTIONS = {
     "All episodes (no filter)": "All Episodes",
     "Great Papers 01 - Einstein's Special Relativity": "Great Papers 01 - Einstein's Special Relativity",
@@ -26,10 +26,10 @@ EPISODE_OPTIONS = {
     "Great Papers 03 - The Double Helix, Watson and Crick 1953": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
 }
 
-EPISODE_DRIVE_IDS = {
-    "Great Papers 01 - Einstein's Special Relativity": "1-U8FAmjK2A77WqXfFEZRMxA5PC6iM0Zo",
-    "Great Papers 02 - How Black Holes Radiate, Hawking 1975": "1P2VOTS4PBGw3ZZ9xMl6OHIUl7BngyMoN",
-    "Great Papers 03 - The Double Helix, Watson and Crick 1953": "16ZVzZZGmXkehvgtvLvtuEXic93ufNuJd",
+EPISODE_AUDIO_URLS = {
+    "Great Papers 01 - Einstein's Special Relativity": "https://github.com/Shauryakant/Fermi-Podcast-Companion-submission/releases/download/v1.0.0/Great.Papers.01.-.Einstein.s.Special.Relativity.mp3",
+    "Great Papers 02 - How Black Holes Radiate, Hawking 1975": "https://github.com/Shauryakant/Fermi-Podcast-Companion-submission/releases/download/v1.0.0/Great.Papers.02.-.How.Black.Holes.Radiate.Hawking.1975.mp3",
+    "Great Papers 03 - The Double Helix, Watson and Crick 1953": "https://github.com/Shauryakant/Fermi-Podcast-Companion-submission/releases/download/v1.0.0/Great.Papers.03.-.The.Double.Helix.Watson.and.Crick.1953.mp3",
 }
 
 SAMPLE_QUESTIONS = [
@@ -135,8 +135,6 @@ for idx, turn in enumerate(st.session_state.history):
                 if os.path.exists(audio_path):
                     st.audio(audio_path, start_time=int(start))
                 else:
-                    file_id = EPISODE_DRIVE_IDS.get(episode_id)
-                    if file_id:
-                        # Direct MP3 audio stream from Google Drive with exact timestamp seeking
-                        stream_url = f"https://drive.google.com/uc?export=open&id={file_id}"
-                        st.audio(stream_url, start_time=int(start))
+                    remote_url = EPISODE_AUDIO_URLS.get(episode_id)
+                    if remote_url:
+                        st.audio(remote_url, start_time=int(start))
