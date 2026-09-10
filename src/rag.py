@@ -27,7 +27,7 @@ load_dotenv()
 INDEX_DIR = Path("data/index")
 COLLECTION_NAME = "fermi_podcast_chunks"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 
 TOP_K = 5
 # Chroma returns L2 distance by default (lower = more similar). Anything
@@ -134,11 +134,36 @@ def answer(
         }
     )
 
-    client = Groq(api_key=os.environ["GROQ_API_KEY"])
-    completion = client.chat.completions.create(
-        model=GROQ_MODEL, messages=messages, temperature=0.2
-    )
-    text = completion.choices[0].message.content
+    api_key = os.environ.get("GROQ_API_KEY", "").strip()
+    if not api_key:
+        try:
+            import streamlit as st
+            if "GROQ_API_KEY" in st.secrets:
+                api_key = str(st.secrets["GROQ_API_KEY"]).strip()
+        except Exception:
+            pass
+
+    if not api_key:
+        return {
+            "answer": "⚠️ GROQ_API_KEY is not set. Please add `GROQ_API_KEY` to your environment variables or Streamlit Cloud Secrets.",
+            "citations": [],
+            "refused": True,
+            "retrieved": chunks,
+        }
+
+    try:
+        client = Groq(api_key=api_key)
+        completion = client.chat.completions.create(
+            model=GROQ_MODEL, messages=messages, temperature=0.2
+        )
+        text = completion.choices[0].message.content
+    except Exception as e:
+        return {
+            "answer": f"⚠️ Groq API Error: {str(e)}. Please check your `GROQ_API_KEY` in Streamlit Cloud Secrets.",
+            "citations": [],
+            "refused": True,
+            "retrieved": chunks,
+        }
 
     return {
         "answer": text,
