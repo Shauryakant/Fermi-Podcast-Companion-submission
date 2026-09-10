@@ -3,11 +3,19 @@ Fermi Podcast Companion - Conversational Study Assistant over Podcast Episodes.
 """
 
 import os
+import sys
 from pathlib import Path
+
+# Ensure src/ directory is in sys.path for Streamlit Cloud deployment
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 import streamlit as st
 import streamlit.components.v1 as components
 
-from rag import answer
+try:
+    from rag import answer
+except ImportError:
+    from src.rag import answer
 
 st.set_page_config(page_title="Fermi Podcast Companion", layout="wide", page_icon="🎙️")
 
