@@ -1,10 +1,18 @@
 # Fermi Podcast Companion
 
-A conversational study companion over 3 raw Fermi Podcast episodes.
-Answers are grounded strictly in the supplied audio (via transcription
-+ retrieval), every claim carries a timestamp citation you can jump to
-in the original audio, and the system explicitly declines to answer
-questions the supplied episodes don't cover.
+A conversational study companion over 3 raw Fermi Podcast episodes:
+- **Great Papers 01**: Einstein's Special Relativity (1905)
+- **Great Papers 02**: How Black Holes Radiate, Hawking (1975)
+- **Great Papers 03**: The Double Helix, Watson & Crick (1953)
+
+Answers are grounded strictly in the supplied audio (via transcription + vector retrieval), every claim carries a timestamp citation you can jump to in the original audio, and the system explicitly declines to answer questions the supplied episodes don't cover.
+
+## Features
+
+- **Single vs. All Episode Search Scope**: Filter retrieval to a single specific episode or query across all episodes simultaneously.
+- **Timestamp Citations & Source Audio Seeking**: Interactive citation buttons seek directly to the exact start timestamp in local `.mp3` files, with automatic embedded Google Drive player fallbacks for cloud/deployed hosting.
+- **Context-Aware Follow-ups**: Retrieval folds prior conversation context into vector queries so follow-up questions like "walk me through it again" maintain topic continuity.
+- **Clean Sample Prompts & Chat Reset**: Built-in sample question prompts for fast testing and a dedicated `Clear Chat` feature to reset sessions.
 
 ## Setup
 
@@ -24,21 +32,13 @@ pip install -r requirements.txt
 pip install -r requirements-transcribe.txt   # only needed to transcribe audio locally
 ```
 
-`requirements.txt` has only what the chat app itself needs (chromadb, groq,
-streamlit, etc.) -- this is also what's used for the deployed version.
-`requirements-transcribe.txt` adds `faster-whisper`, which is only needed
-once, locally, to turn the raw mp3s into transcripts. It's kept separate
-because `faster-whisper`'s `av` dependency needs to compile from source and
-fails on some cloud build environments that lack `pkg-config` -- since the
-deployed app never re-transcribes audio (the transcripts are already
-committed to the repo), it doesn't need this dependency at all.
+`requirements.txt` has only what the chat app itself needs (chromadb, groq, streamlit, etc.) -- this is also what's used for the deployed version. `requirements-transcribe.txt` adds `faster-whisper`, which is only needed once, locally, to turn the raw mp3s into transcripts.
 
 Create a file named `.env` in the project root with your Groq key:
 ```
 GROQ_API_KEY=your_key_here
 ```
-(get a free key at console.groq.com; `src/rag.py` loads this automatically
-via `python-dotenv`, so no manual environment-variable step is needed)
+(get a free key at console.groq.com; `src/rag.py` loads this automatically via `python-dotenv`)
 
 Drop the 3 supplied mp3 files into `data/audio/`.
 
@@ -52,25 +52,19 @@ make run      # launches the Streamlit chat UI
 
 On Windows (or anywhere without `make`), run the same steps directly:
 ```powershell
-python src\transcribe.py
-python src\chunk.py
-python src\index.py
-streamlit run src\app.py
+.venv\Scripts\python.exe src\transcribe.py
+.venv\Scripts\python.exe src\chunk.py
+.venv\Scripts\python.exe src\index.py
+.venv\Scripts\python.exe -m streamlit run src\app.py
 ```
-
-Note: transcription is the slow step -- roughly as long as the audio itself
-on a normal CPU, so for ~3 hours of combined audio, expect it to take a
-while the first time. It only needs to be re-run if the audio changes.
 
 ## Evaluation
 
 ```powershell
-python eval\run_eval.py --tag baseline
-# ... inspect eval/results/baseline.json, make the improvement described in EVAL.md ...
-python eval\run_eval.py --tag improved
+.venv\Scripts\python.exe eval\run_eval.py --tag baseline
+# ... inspect eval/results/baseline.json, make improvements ...
+.venv\Scripts\python.exe eval\run_eval.py --tag improved
 ```
-
-(`make eval-baseline` / `make eval-improved` do the same thing on systems with `make`.)
 
 See `EVAL.md` for success criteria, results, and failure analysis.
 See `PRODUCT_NOTE.md` for the intended user and the problem this was scoped to solve.
@@ -90,21 +84,17 @@ data/chunks/*.json
 data/index/  (persistent local vector store)
       |  src/rag.py  (retrieve -> Groq -> cited, grounded answer)
       v
-src/app.py  (Streamlit chat; citations are clickable and seek the audio player)
+src/app.py  (Streamlit chat; scope filter; interactive timestamp audio seeking)
 ```
 
-`src/rag.py` is imported by both `src/app.py` and `eval/run_eval.py`, so
-the evaluation always exercises the exact same code path a real user hits.
+`src/rag.py` is imported by both `src/app.py` and `eval/run_eval.py`, so the evaluation always exercises the exact same code path a real user hits.
 
-Retrieval is history-aware: for follow-up questions, the last conversation
-turn is folded into the search query, so vague follow-ups like "walk me
-through it again" still retrieve the right topic instead of matching
-nothing and being wrongly refused. See `EVAL.md` section 5 for the concrete
-failure this fixed.
+Retrieval is history-aware and scope-aware:
+- For follow-up questions, the last conversation turn is folded into the search query.
+- When an episode filter is selected, Chroma queries filter metadata using `where={"episode_id": episode_filter}`.
 
 ## Known limitations
 - Only 3 episodes / this specific collection -- not built for a growing catalogue.
 - Transcription quality depends on the Whisper model size chosen (`WHISPER_MODEL_SIZE` env var).
-- Refusal threshold (`RAG_DISTANCE_THRESHOLD` in `src/rag.py`) was tuned against the eval set in `EVAL.md`, not derived analytically.
-- The automatic eval scorer only detects hard refusals, not soft in-answer
-  declines -- see `EVAL.md` section 4 for a case this affects.
+- Refusal threshold (`RAG_DISTANCE_THRESHOLD` in `src/rag.py`) was tuned against the eval set in `EVAL.md`.
+- Automated eval scorer measures hard refusals via distance thresholding; soft in-answer declines are verified via manual evaluation logs.

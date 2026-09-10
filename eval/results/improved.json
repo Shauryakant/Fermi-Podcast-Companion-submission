@@ -5,7 +5,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "Einstein\u2019s theory rests on two simple, explicit assumptions:\n\n1. **The principle of relativity** \u2013 the laws of physics are the same for every inertial (steady\u2011moving) observer.  \n2. **The constancy of the speed of light** \u2013 light in vacuum travels at one fixed speed for all inertial observers, no matter how the source or the observer is moving.\n\nThese two postulates are stated in the episode when it says: \u201cPhysics is the same for all steady observers, and light has one speed for all of them.\u201d\u3010Great Papers 01 - Einstein's Special Relativity @ 2758-2804s\u3011",
+    "answer": "Einstein\u2019s theory rests on two simple, \u201cmodest\u201d assumptions:\n\n1. **The principle of relativity** \u2013 the laws of physics are the same for every inertial (steady) observer.  \n2. **The constancy of the speed of light** \u2013 light in vacuum travels at one fixed speed for all observers, no matter how they or the source are moving.\n\nThese two postulates are explicitly stated in the episode when it says, \u201cPhysics is the same for all steady observers, and light has one speed for all of them.\u201d\u3010Great Papers 01 - Einstein's Special Relativity @ 2758-2804s\u3011",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -77,7 +77,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "The episode explains that Hawking radiation means the **horizon (the \u201cedge\u201d) of a black hole is not perfectly black** \u2013 quantum\u2011vacuum effects at that surface cause it to emit a **thermal glow**. In other words, the combination of a horizon with the quantum vacuum makes the black hole radiate particles, so something can come out from the edge even though classical general relativity says nothing can escape.  \n\n**Sources**  \n- [Great Papers 02 \u2013 How Black Holes Radiate, Hawking 1975 @\u202f77\u2011124s] \u2013 describes how the quantum vacuum \u201coutfalls radiation, a perfect thermal glow\u201d at the black hole\u2019s surface.  \n- [Great Papers 02 \u2013 How Black Holes Radiate, Hawking 1975 @\u202f1755\u20111801s] \u2013 says the mechanism is \u201ca horizon plus a quantum \u2026 makes thermal radiation.\u201d  ",
+    "answer": "The episode explains that Hawking radiation means the **horizon (the \u201cedge\u201d) of a black hole is not completely dark \u2013 quantum\u2011vacuum effects at that surface cause it to emit a thermal glow**. In other words, the combination of a horizon and the quantum vacuum makes the black hole radiate like a hot object, turning the perfectly black, eternal object into something that glows and loses mass.\n\n**Sources**\n\n- The description of Hawking\u2019s idea: \u201cforces the hole to have a temperature\u2026 brings in the quantum vacuum and outfalls radiation, a perfect thermal glow\u2026 Two ingredients, a horizon and the quantum vacuum\u2026 turns grey and mortal\u201d\u3010Great Papers 02 - How Black Holes Radiate, Hawking 1975 @ 77-124s\u3011  \n- The explicit statement that a horizon plus a quantum (or wavy) vacuum \u201cmakes thermal radiation\u201d\u3010Great Papers 02 - How Black Holes Radiate, Hawking 1975 @ 1755-1801s\u3011",
     "citations": [
       {
         "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
@@ -149,7 +149,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "The excerpts you provided describe Watson and\u202fCrick\u2019s model\u2011building approach, the clues they used, and how they differed from Linus\u202fPauling\u2019s (incorrect) triple\u2011helix proposal, but none of the quoted passages actually state the specific shape they proposed for DNA. Therefore, the supplied episode excerpts don\u2019t contain a direct answer to the question.  \n\n**Sources consulted:**  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f756\u2011802\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f824\u2011870\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f381\u2011427\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f414\u2011459\u202fs]  ",
+    "answer": "Watson and\u202fCrick\u2019s model was a **double\u2011helix** \u2013 two intertwined helical strands that wind around each other. The episode contrasts their correct double\u2011helix model with Linus\u202fPauling\u2019s mistaken \u201ctriple\u2011helix\u201d proposal, making clear that Watson and\u202fCrick\u2019s answer was a double helix structure\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s\u3011.",
     "citations": [
       {
         "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
@@ -221,7 +221,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "The **Special Relativity** episode tells us that, by the early 1900s, physicists were facing a \u201ccrack\u201d in the existing theory of electrodynamics\u2014a conflict that had been growing for decades.\u202fEinstein\u2019s response was to discard the old ideas of absolute time and space and replace them with two modest\u2011looking postulates (the constancy of the speed of light and the equivalence of all inertial frames).\u202fThose postulates \u201cdetonate\u201d the old assumptions, forcing us to give up simultaneity, fixed lengths and universal durations in favor of a new spacetime picture\u202f[Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f33\u201180s;\u202f68\u2011114s].\n\nThe **Double Helix** episode is not included in the excerpts you provided, so we have no description of how that story portrays a similar overturning of scientific assumptions.\u202fTherefore a direct comparison cannot be made with the material at hand.\n\n**Cited excerpts**\n- [Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f33\u201180s] \u2013 describes the \u201ccrack\u201d in physics that Einstein set out to fix.  \n- [Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f68\u2011114s] \u2013 outlines the two new postulates that replace the old assumptions.",
+    "answer": "The transcript you shared includes several passages from the **Special Relativity** episode that talk about a \u201ccrack\u201d in physics that had to be fixed. For example, the hosts say Einstein was trying to \u201cfix a crack that had been quietly widening in physics for about\u202f40\u202fyears\u201d and that \u201cthe crack is not exotic\u2026 it\u2019s sitting in the most successful theory of the century\u201d\u202f([Great Papers\u202f01\u202f@\u202f33\u201180\u202fs]). They also note that the two modest postulates Einstein introduced cause \u201csimultaneity comes apart, moving clocks run slow, moving rulers shrink,\u201d overturning the old assumptions about absolute time and space\u202f([Great Papers\u202f01\u202f@\u202f68\u2011114\u202fs]).\n\nHowever, **no excerpt from a \u201cDouble Helix\u201d episode was provided**, so there is nothing in the supplied material that describes how that story portrays a moment when scientific assumptions were overturned. Because the required comparison cannot be made from the given excerpts, I can only describe what the Special Relativity episode says and note the absence of the Double Helix content.\n\n**Cited excerpts**\n- [Great Papers\u202f01\u202f@\u202f33\u201180\u202fs] \u2013 Einstein fixing a long\u2011standing \u201ccrack\u201d in physics.  \n- [Great Papers\u202f01\u202f@\u202f68\u2011114\u202fs] \u2013 The two postulates that overturn old ideas about time, space, and simultaneity.",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -293,7 +293,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "Time dilation is the idea that **a clock that is moving relative to you ticks more slowly than a clock that is at rest with you**.  \nFrom your point of view the moving clock\u2019s \u201cseconds\u201d are stretched out, so less time seems to pass on that clock while you measure a normal amount of time on yours.  \n\nThe episode even gives a concrete formula for how much slower the moving clock runs. The slowdown factor is called **\u03b3 (gamma)**, defined as  \n\n\\[\n\\gamma = \\frac{1}{\\sqrt{\\,1-\\frac{v^{2}}{c^{2}}\\,}},\n\\]\n\nwhere *v* is the speed of the moving clock and *c* is the speed of light. When *v* is tiny compared with *c*, \u03b3 is almost 1 and the effect is negligible; as *v* approaches *c*, \u03b3 grows large and the moving clock runs dramatically slower.  \n\nThe podcast uses the muon example to illustrate this: on Earth we explain why muons reach the ground by saying **their internal clocks run slow** (time dilation), even though in the muon\u2019s own frame its clock is \u201cperfectly normal\u201d and it lives its usual lifetime. This shows how the same physical process looks different in different frames because of time dilation.  \n\n**Key excerpts**  \n- \u201cThe moving clock ticks slower. Time itself, as read by that clock, is running slow\u2026 It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared.\u201d\u202f[Great Papers 01 \u2013 Einstein's Special Relativity @ 1085\u20111134s]  \n- \u201cWe on the ground explain the muon reaching us by saying its clock runs slow\u2026 In its own frame, its clock is perfectly normal.\u201d\u202f[Great Papers 01 \u2013 Einstein's Special Relativity @ 1291\u20111337s]  ",
+    "answer": "**Time dilation** is the observation that a clock which is moving relative to you ticks more slowly than a clock that is at rest with you.  \nIn other words, the amount of time that passes on a moving clock is **shorter** than the amount of time you measure with your own stationary clock.  \n\nThe episode puts it this way:\n\n* \u201cThe moving clock ticks slower.\u202fTime itself, as read by that clock, is running slow.\u202fFrom your point of view.\u201d\u202fIt even gives the quantitative factor\u202f\u03b3\u202f=\u202f1\u202f/\u202f\u221a(1\u202f\u2013\u202fv\u00b2/c\u00b2) that tells you exactly how much slower the moving clock runs\u202f[Great Papers 01 - Einstein's Special Relativity @ 1085-1134s].\n\nA concrete illustration is the muon example:\n\n* From the ground we explain a muon\u2019s ability to reach us by saying **its clock runs slow** (its lifetime appears lengthened).\u202fBut from the muon\u2019s own frame its clock is normal; the atmosphere is length\u2011contracted instead\u202f[Great Papers 01 - Einstein's Special Relativity @ 1291-1337s].\n\nSo, simply put: **time dilation means that moving clocks run slower, and the faster the motion (the larger\u202fv\u202frelative to\u202fc), the greater the slowdown, quantified by the factor\u202f\u03b3**.  \n\n**Cited excerpts**  \n- [Great Papers 01 - Einstein's Special Relativity @ 1085-1134s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 1291-1337s]",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -365,22 +365,12 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "**Step\u2011by\u2011step walk\u2011through of the muon example**\n\n1. **What the muon is and why it matters**  \n   A muon is created high in Earth\u2019s atmosphere and lives only a few microseconds in its own rest frame. If it travelled at ordinary speeds, it would decay long before it could reach the ground.\n\n2. **Ground\u2011observer\u2019s view (the \u201clab\u201d frame)**  \n   * The muon is moving toward us at a speed *v* that is a large fraction of the speed of light *c*.  \n   * Because of **time dilation**, the muon\u2019s internal clock runs slower for us.  \n   * The slowdown factor is the famous **\u03b3 (gamma)**:  \n\n     \\[\n     \\gamma = \\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}}\n     \\]\n\n     (see the definition of \u03b3 in the first excerpt).  \n   * With \u03b3\u202f>\u202f1, the muon\u2019s lifetime as measured by us is **\u03b3\u202f\u00d7\u202fits normal lifetime**. That stretched lifetime is long enough for the muon to travel the distance from the upper atmosphere to the ground before decaying.  \n\n   *Excerpt:* \u201cWe on the ground explain the muon reaching us by saying its clock runs slow\u2026 In its own frame, its clock is perfectly normal.\u201d\u202f[1291\u20111337s]\n\n3. **Muon\u2019s own view (its rest frame)**  \n   * In the muon\u2019s frame its clock is **perfectly normal**\u2014it experiences its ordinary lifetime with no dilation because it is at rest relative to itself.  \n\n   *Excerpt:* \u201cIn its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself.\u201d\u202f[1323\u20111368s]\n\n   * However, from the muon\u2019s perspective the Earth and the entire atmosphere are moving upward at speed *v*.  \n   * Because of **length contraction**, the thickness of the atmosphere is **shortened** by the same factor \u03b3. The distance the muon has to travel is therefore **\u03b3\u2011times smaller** than the distance measured by a ground observer.  \n\n   *Excerpt:* \u201cFrom the muon's point of view, the atmosphere is the thing that's moving, rushing up at it near light speed, and that whole thickness of atmosphere is contracted\u2026 The distance it has to travel is shortened by exactly the factor gamma.\u201d\u202f[1323\u20111368s]\n\n4. **Both frames agree on the outcome**  \n   * Ground frame: muon lives longer (time dilation) \u2192 it can cross the full atmospheric distance.  \n   * Muon frame: muon lives its normal lifetime, but the distance is shorter (length contraction) \u2192 it can still cross.  \n\n   *Excerpt:* \u201cOne observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground.\u201d\u202f[1354\u20111403s]\n\n5. **Why we never notice this in everyday life**  \n   * At everyday speeds *v\u202f\u226a\u202fc*, \u03b3 is essentially 1, so clocks tick at the normal rate and the effect is imperceptible.  \n\n   *Excerpt:* \u201cWhen V is tiny compared to C \u2026 gamma is essentially one, and moving clocks tick at basically the normal rate.\u201d\u202f[1085\u20111134s]\n\n---\n\n**In short:**  \n- From Earth we say the muon\u2019s clock runs slow (time dilation) so it survives longer.  \n- From the muon we say its clock is normal, but the atmosphere is squashed (length contraction) so it has less distance to travel.  \n- Both explanations use the same factor \u03b3 and lead to the same physical result: the muon reaches the ground.\n\n**Excerpts used**  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1085\u20111134s] \u2013 definition of \u03b3 and why the effect is tiny at low speeds.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1291\u20111337s] \u2013 ground\u2011frame explanation of muon\u2019s slowed clock.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1323\u20111368s] \u2013 muon\u2011frame explanation of normal clock + contracted atmosphere.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1354\u20111403s] \u2013 statement that both observers agree on the muon reaching the ground.",
+    "answer": "**Step\u2011by\u2011step walk\u2011through of the muon example**\n\n1. **What a muon is and how fast it moves**  \n   *Muons are unstable particles that normally live only a few\u202f\u00b5s (a couple of millionths of a second). They are created high in Earth\u2019s atmosphere and then travel toward the ground at a speed that is \u201cvery close to the speed of light.\u201d*  \n   \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1225\u20111270s]\n\n2. **What we would expect without relativity**  \n   If the muon\u2019s own lifetime (\u2248\u202f2\u202f\u00b5s) were the only thing that mattered, even moving at light speed it could travel only a short distance \u2013 \u201ca fraction of the way down\u201d before decaying.  \n   \u2013 Same excerpt as above.\n\n3. **What we actually observe**  \n   Many muons do reach the ground, which seems impossible if their clocks run at the normal (non\u2011relativistic) rate.\n\n4. **Time\u2011dilation view (ground observer\u2019s frame)**  \n   *From our point of view on the ground, the moving muon\u2019s clock ticks slower.* The factor that tells us how much slower is the famous **\u03b3 (gamma)**:  \n\n   \\[\n   \\gamma = \\frac{1}{\\sqrt{1 - v^{2}/c^{2}}}\n   \\]  \n\n   \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1085\u20111134s]  \n\n   Because \u03b3\u202f>\u202f1 for speeds near\u202fc, the muon\u2019s **lifetime appears lengthened** (its internal clock runs slow). So the muon can survive long enough, in our frame, to travel the full distance to the surface.\n\n5. **Length\u2011contraction view (muon\u2019s own frame)**  \n   The muon itself does **not** feel its own clock running slow; \u201cits clock is perfectly normal.\u201d \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1323\u20111368s]  \n\n   Instead, from the muon\u2019s perspective the atmosphere is moving upward at nearly\u202fc. The thickness of the atmosphere is **contracted** (shortened) by the same factor \u03b3:  \n\n   *\u201cthe atmosphere is the thing that\u2019s moving\u2026 that whole thickness of atmosphere is contracted, squashed thin along the direction of motion\u2026 the distance it has to travel is shortened by exactly the factor gamma.\u201d* \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1323\u20111368s]\n\n6. **Both descriptions give the same physical outcome**  \n   - Ground frame: muon\u2019s clock runs slow \u2192 it lives longer \u2192 it reaches the ground.  \n   - Muon frame: muon\u2019s clock runs normal \u2192 the distance it must cross is shorter (length\u2011contracted) \u2192 it reaches the ground.  \n\n   The podcast stresses that \u201cone observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground.\u201d \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1354\u20111403s]  \n\n   The two viewpoints are just different ways of accounting for the same reality; they must agree on the final result (muon either reaches the ground or not). \u2013 same excerpt.\n\n7. **Why this is a strong piece of evidence**  \n   The muon experiment is a \u201ccleanest real case\u201d of measured time dilation, showing directly that moving clocks (or, equivalently, moving particles) behave exactly as the theory predicts. \u2013 [Great Papers 01 - Einstein's Special Relativity @ 1225\u20111270s]\n\n---\n\n**In short:**  \n- From Earth we see the muon\u2019s internal clock run slower (time dilation) so its lifetime appears longer.  \n- From the muon\u2019s own point of view its clock is normal, but the atmosphere is length\u2011contracted, so it has less distance to travel.  \n- Both perspectives use the same factor \u03b3 and lead to the same observable fact: many muons reach the ground.  \n\n**Cited excerpts**  \n- [Great Papers 01 - Einstein's Special Relativity @ 1085\u20111134s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 1225\u20111270s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 1291\u20111337s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 1323\u20111368s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 1354\u20111403s]",
     "citations": [
-      {
-        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 1085.44,
-        "end": 1134.32
-      },
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
         "start": 1353.84,
         "end": 1402.72
-      },
-      {
-        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 1122.32,
-        "end": 1170.16
       },
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -391,43 +381,53 @@
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
         "start": 1322.64,
         "end": 1367.84
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "end": 1134.32
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1225.44,
+        "end": 1270.08
       }
     ],
     "retrieved_debug": [
-      {
-        "end": 1134.32,
-        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 1085.44,
-        "text": "The moving clock ticks slower. Time itself, as read by that clock, is running slow. From your point of view. And you can actually put a number, well a factor, on how much slower. You can, and it's the single most famous factor in the subject. It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared. Let me make that breathe. The ratio V over C is how fast you're going as a fraction of light speed. Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero,",
-        "distance": 0.4749179482460022
-      },
       {
         "end": 1402.72,
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
         "start": 1353.84,
         "text": "exactly the factor gamma, short enough to cross in its normal lifetime. So one observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground. They must both get the same physical outcome. The muon either reaches the ground or it doesn't, and everyone has to agree on that. What they don't have to agree on is the explanation in terms of space versus time. One frame spends the effect on time, the other spends it on space, and it always balances. And that gives us the length contraction rule. An object in motion is shortened along its direction of travel by the factor gamma. A meter stick flying past you lengthwise is measured by you as shorter than a meter.",
-        "distance": 0.6054381132125854
-      },
-      {
-        "end": 1170.16,
-        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 1122.32,
-        "text": "Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero, so gamma is essentially one, and moving clocks tick at basically the normal rate. That's why you've never noticed this. But as V climbs towards C, that quantity under the square root shrinks towards zero, and gamma blows up toward infinity. At about 87% of the speed of light, gamma is two. Moving clocks run at half speed, push closer to C, and they nearly freeze. So the moving clocks ticks are stretched by the factor gamma. Is this just light clocks being weird, or is it every clock?",
-        "distance": 0.6115680932998657
+        "distance": 0.5311745405197144
       },
       {
         "end": 1337.2,
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
         "start": 1291.44,
         "text": "We don't just believe time dilation, we get reigned on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clock's stretch. You also promised me rulers shrink. Same idea. Same idea, seen from the side. Let me get the length contraction from the muon we were just discussing, because it's a lovely consistency check. We on the ground explain the muon reaching us by saying its clock rams slow. But now ride along with the muon. In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life?",
-        "distance": 0.6423834562301636
+        "distance": 0.540440022945404
       },
       {
         "end": 1367.84,
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
         "start": 1322.64,
         "text": "In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life? From the muon's point of view, the atmosphere is the thing that's moving, rushing up at it near light speed, and that whole thickness of atmosphere is contracted, squashed thin along the direction of motion. The distance it has to travel is shortened by exactly the factor gamma, short enough to cross in its normal lifetime. So one observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground.",
-        "distance": 0.746639609336853
+        "distance": 0.5717233419418335
+      },
+      {
+        "end": 1134.32,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "text": "The moving clock ticks slower. Time itself, as read by that clock, is running slow. From your point of view. And you can actually put a number, well a factor, on how much slower. You can, and it's the single most famous factor in the subject. It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared. Let me make that breathe. The ratio V over C is how fast you're going as a fraction of light speed. Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero,",
+        "distance": 0.6230881214141846
+      },
+      {
+        "end": 1270.08,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1225.44,
+        "text": "I have to ask the obvious skeptics question, has anyone ever actually seen a moving clock run slow? Or is this a story we tell on trains that don't exist? It's measured constantly, and I'll give you the cleanest real case. Particles called muons. A muon is a heavy cousin of the electron, and it's unstable. Left alone, it decays in about a couple of millions of a second. They're created high in the atmosphere when cosmic rays hit the air, and they come screaming down toward the ground at very close to the speed of light. Now do the bookkeeping the old way. Even at light speed, in a couple of millions of a second, they should only make it a fraction of the way down before decaying.",
+        "distance": 0.8113622665405273
       }
     ]
   },
@@ -455,13 +455,6 @@
         "distance": 1.450238823890686
       },
       {
-        "end": 2426.64,
-        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
-        "start": 2381.12,
-        "text": "aren't anywhere anymore. They're just erased. And that is a catastrophe because quantum mechanics is not allowed to erase information. One of the bedrock rules of quantum theory is that information is never truly lost. The present always retains, in principle, a complete record of the past. It's the quantum version of determinism and it's as central to quantum mechanics as anything. So we have a genuine collision between two of our most trusted theories. Hawking's own calculation says the radiation is exactly thermal, hence information free, hence the information is destroyed when the hole evaporates. Quantum mechanics says that's impossible. The information must come out somehow,",
-        "distance": 1.4589769840240479
-      },
-      {
         "end": 2495.36,
         "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
         "start": 2449.52,
@@ -474,6 +467,13 @@
         "start": 2345.6,
         "text": "You form it by throwing in something specific. An encyclopedia, a star, your friend's diary, some very particular arrangement of matter, carrying a huge amount of detailed information. The hole radiates that mass back out slowly over its lifetime as featureless thermal radiation. And then it's gone, fully evaporated, vanished. Question, where did the information go? If the radiation was featureless and the hole is gone, then the specific details of whatever fell in aren't anywhere anymore. They're just erased. And that is a catastrophe because quantum mechanics is not allowed to erase information. One of the bedrock rules of quantum theory",
         "distance": 1.487018346786499
+      },
+      {
+        "end": 458.88,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 413.84,
+        "text": "and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time, because the detective story quality is real. Clue one is the chemistry, what DNA is made of at the parts level. A strand of DNA is a long chain, and the chain has a repeating backbone made of two alternating pieces. A sugar, called deoxyribose, and a phosphate group. Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail,",
+        "distance": 1.491936445236206
       }
     ]
   },
@@ -501,6 +501,13 @@
         "distance": 1.7143285274505615
       },
       {
+        "end": 2007.6,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1962.0,
+        "text": "that is enormous compared to that tile, the count is beyond astronomical. A single black hole of a few solar masses has more entropy, more hidden internal disorder, more microscopic arrangements, than all the ordinary matter, all the stars and gas, in a large chunk of the visible universe combined. Take our own sun's worth of material. As a star, it has a certain entropy. Collapse it into a black hole, and its entropy leaps up by something like a factor of a billion billion. Black holes are, by a staggering margin, the most disordered, information-rich objects the universe knows how to make. They are where entropy goes to pile up.",
+        "distance": 1.7562135457992554
+      },
+      {
         "end": 768.24,
         "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
         "start": 722.56,
@@ -513,13 +520,6 @@
         "start": 448.16,
         "text": "Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail, is one of four smaller molecules called bases. The four bases have names we'll shorten to their initials, A, T, G, and C. So picture a long rail with little flags sticking out of it, and each flag is one of four kinds. The message, whatever it is, has to be written in the sequence of those flags, the order of A's, T's, G's, and C's along the rail. That's the only place variety can live, because the backbone is always the same. Before we leave the parts, do those four bases have real names,",
         "distance": 1.7921286821365356
-      },
-      {
-        "end": 1529.68,
-        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
-        "start": 1482.4,
-        "text": "each one an exposed row of unpaired bases. But each of those single strands carries, in its sequence, the complete recipe for its missing partner, because of the pairing rule. So the cell just walks along each lonely strand, and wherever there's an exposed A, it brings in a fresh T. Wherever there's a G, it brings in a fresh C. Each old strand acts as a template that reconstructs its own complement. And when it's done, you don't have one double helix. You have two, each a perfect copy of the original, each made of one old strand, and one freshly built one. Oh, that's clean. You don't copy the whole thing as a unit, you split it in half and let each half rebuild the missing side.",
-        "distance": 1.796577632059752
       }
     ]
   },
@@ -529,7 +529,7 @@
     "expect_refusal": true,
     "actual_refused": false,
     "refusal_correct": false,
-    "answer": "The excerpts you provided don\u2019t contain any mention of Einstein\u2019s Nobel Prize or the committee\u2019s reasons for awarding it. None of the quoted sections discuss the prize, so I can\u2019t confirm or explain that claim from the material you\u2019ve shared.  \n\n**Sources consulted:**  \n- [Great Papers 01 - Einstein's Special Relativity @ 0\u201147s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2400\u20112451s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2254\u20112303s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 3078\u20113126s]   (no Nobel\u2011prize content)",
+    "answer": "The excerpts you provided discuss Einstein\u2019s 1905 paper on special relativity, its two postulates, and how it changed our understanding of space and time, but none of them mention the Nobel Prize or the committee\u2019s reasons for awarding it. Therefore, the episode material you shared does not cover whether Einstein won the Nobel Prize for special relativity or why the Nobel committee chose that work.  \n\n**Sources consulted:**  \n- [Great Papers 01 - Einstein's Special Relativity @ 0\u201147s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2400\u20112451s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 3078\u20113126s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2254\u20112303s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 3078\u20113126s]  \n\nThese excerpts contain no information about the Nobel Prize.",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -596,7 +596,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "You should start with **\u201cGreat Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953.\u201d**  \n\nWhy this episode?  \n- It opens by laying out the exact problem the scientists faced and the three key clues they had to work from, then walks through how they built the double\u2011helix model piece by piece\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s\u3011.  \n- It explains the logical \u201cdoor\u201d they walked through\u2014from knowing genes sit on chromosomes to asking what DNA looks like, and how the shape itself reveals the copying mechanism\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s\u3011.  \n- It also puts the discovery in its historical context, showing how other scientists (e.g., Linus\u202fPauling) were trying and failing, which highlights why Watson and\u202fCrick\u2019s approach succeeded\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s\u3011.  \n\nTogether, these sections make the episode a comprehensive guide to how the structure of DNA was figured out.  \n\n**Cited excerpts**  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s]",
+    "answer": "You should listen to **\u201cGreat Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953.\u201d**  \n\nWhy this episode?  \n- It opens by **setting up the exact problem the scientists faced** \u2013 figuring out what kind of object could do both jobs of a gene and why its shape mattered\u202f\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s\u3011.  \n- It **lays out the three big clues** that were on the table in 1953 and shows how Watson and Crick used them step\u2011by\u2011step to build the double\u2011helix model\u202f\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s\u3011.  \n- It explains the **competition with Linus\u202fPauling** and why his triple\u2011helix proposal failed, highlighting the critical insight that led Watson and Crick to the correct structure\u202f\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s\u3011.  \n- It emphasizes that **the shape of the molecule itself provides the copying mechanism**, tying the structure directly to the biological function\u202f\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 35-80s\u3011.  \n- It also shows how the **question narrowed to \u201cwhat does DNA look like?\u201d** after earlier work proved DNA, not protein, carries genetic information\u202f\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 344-392s\u3011.  \n\nAll of these points make this episode the clear choice for learning how scientists uncovered DNA\u2019s structure and why that story matters.  \n\n**Cited excerpts**  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 35-80s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 344-392s]",
     "citations": [
       {
         "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
@@ -668,7 +668,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "The episode points to two pieces of \u201cevidence\u201d for the second postulate:\n\n1. **Failure to detect any motion through the ether** \u2013 the fact that experiments never reveal an \u201cether wind\u201d shows that light does not change speed with the motion of the observer or the source.  \n2. **Direct thought\u2011experiments (and the underlying experiments that inspired them)** \u2013 whether a spaceship is moving toward you, moving away, or you try to chase a light beam, every inertial observer still measures the light\u2019s speed as exactly\u202fC, never\u202f1\u00bd\u202fC or any other value.\n\nThese points are used in the show to illustrate why the speed of light must be constant for all observers.\n\n**Citations**\n\n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 2758\u20112804s*: \u201cYou can't detect motion through the ether\u2026 Physics is the same for all steady observers, and light has one speed for all of them.\u201d  \n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 525\u2011573s*: \u201cPostulate two, the constancy of the speed of light\u2026 every inertial observer measures that same speed, regardless of how the source was moving when it emitted the light.\u201d  \n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 562\u2011608s*: \u201cIf a spaceship flies toward me at half the speed of light\u2026 the light \u2026 reaches me at \u2026 just C\u2026 If the ship is flying away\u2026 still C\u2026 you still measure it pulling away from you at the full C.\u201d",
+    "answer": "The episode points to the **second postulate** itself and to a few simple \u201cthought\u2011experiment\u201d observations that show the speed of light never changes no matter how the source or the observer is moving:\n\n* **Postulate\u202f2** is stated outright: \u201cLight travels through empty space at one fixed speed,\u202fc, and every inertial observer measures that same speed, regardless of how the source was moving when it emitted the light.\u201d\u3010Great Papers 01 - Einstein's Special Relativity @ 525-573s\u3011\n\n* The host illustrates this with a spaceship moving at half the speed of light that turns on its headlight. Whether the ship is **moving toward you**, **moving away**, or even if **you try to chase the light beam**, you still measure the light\u2019s speed as exactly\u202fc\u2014not 1\u00bd\u202fc, not slower, not faster. This imagined experiment is presented as evidence that the speed of light is the same for all observers.\u3010Great Papers 01 - Einstein's Special Relativity @ 562-608s\u3011\n\nTogether, these points are the episode\u2019s \u201cevidence\u201d that the speed of light is constant for every inertial observer.",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
@@ -692,8 +692,8 @@
       },
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 3078.48,
-        "end": 3125.6
+        "start": 1225.44,
+        "end": 1270.08
       }
     ],
     "retrieved_debug": [
@@ -726,11 +726,11 @@
         "distance": 0.9690791964530945
       },
       {
-        "end": 3125.6,
+        "end": 1270.08,
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",
-        "start": 3078.48,
-        "text": "it's quietly confirming that 1905 paper. So the patent clock's spare time paper is running silently every time we find our way home. Every single time. Two postulates, written at a desk between patent applications, and the fixed backdrop of the universe, turned out to be a participant. Space stretches, time slows, the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies, thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen",
-        "distance": 0.9860982298851013
+        "start": 1225.44,
+        "text": "I have to ask the obvious skeptics question, has anyone ever actually seen a moving clock run slow? Or is this a story we tell on trains that don't exist? It's measured constantly, and I'll give you the cleanest real case. Particles called muons. A muon is a heavy cousin of the electron, and it's unstable. Left alone, it decays in about a couple of millions of a second. They're created high in the atmosphere when cosmic rays hit the air, and they come screaming down toward the ground at very close to the speed of light. Now do the bookkeeping the old way. Even at light speed, in a couple of millions of a second, they should only make it a fraction of the way down before decaying.",
+        "distance": 1.0636539459228516
       }
     ]
   },
@@ -786,7 +786,7 @@
     "expect_refusal": false,
     "actual_refused": false,
     "refusal_correct": true,
-    "answer": "Yes. The excerpt explicitly discusses time dilation\u2014mentioning how we \u201cdon\u2019t just believe time dilation,\u201d describing how a muon\u2019s clock runs slow from the ground\u2019s point of view, and explaining the effect from the muon\u2019s own frame.  \n\n**Source:**  \n- [Great Papers\u202f01 \u2013 Einstein's Special Relativity @\u202f1291\u20111337\u202fs]",
+    "answer": "Yes. The excerpt explicitly discusses time dilation, describing how we observe a muon\u2019s clock running slow from the ground frame and how that explains the muon\u2019s ability to reach us despite its short lifetime. It even states, \u201cWe don\u2019t just believe time dilation, we get reigned on by the evidence,\u201d showing that the concept is covered in the episode.\n\n**Source**  \n- [Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f1291\u20111337\u202fs]",
     "citations": [
       {
         "episode_id": "Great Papers 01 - Einstein's Special Relativity",

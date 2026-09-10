@@ -4,3 +4,15 @@ groq==0.9.0
 streamlit==1.37.0
 python-dotenv==1.0.1
 httpx==0.27.2
+
+
+
+
+
+
+
+
+"What was the title of Einstein's 1905 paper?"
+"What does time dilation mean?"
+"I didn't fully understand that example — walk me through it again, step by step."
+"What's a good recipe for pizza dough?"

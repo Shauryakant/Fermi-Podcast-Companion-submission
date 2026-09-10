@@ -68,10 +68,20 @@ def build_retrieval_query(query: str, chat_history: list[dict] | None) -> str:
     return f"{recent_text} {query}"
 
 
-def retrieve(query: str, top_k: int = TOP_K, chat_history: list[dict] | None = None) -> list[dict]:
+def retrieve(
+    query: str,
+    top_k: int = TOP_K,
+    chat_history: list[dict] | None = None,
+    episode_filter: str | None = None,
+) -> list[dict]:
     collection = _get_collection()
     search_query = build_retrieval_query(query, chat_history)
-    results = collection.query(query_texts=[search_query], n_results=top_k)
+
+    query_kwargs = {"query_texts": [search_query], "n_results": top_k}
+    if episode_filter and episode_filter not in ("All Episodes", "All", ""):
+        query_kwargs["where"] = {"episode_id": episode_filter}
+
+    results = collection.query(**query_kwargs)
 
     chunks = []
     for doc, meta, dist in zip(
@@ -81,7 +91,11 @@ def retrieve(query: str, top_k: int = TOP_K, chat_history: list[dict] | None = N
     return chunks
 
 
-def answer(query: str, chat_history: list[dict] | None = None) -> dict:
+def answer(
+    query: str,
+    chat_history: list[dict] | None = None,
+    episode_filter: str | None = None,
+) -> dict:
     """
     Returns:
         {
@@ -91,7 +105,7 @@ def answer(query: str, chat_history: list[dict] | None = None) -> dict:
           "retrieved": [...],   # raw retrieval, kept for eval/debugging
         }
     """
-    chunks = retrieve(query, chat_history=chat_history)
+    chunks = retrieve(query, chat_history=chat_history, episode_filter=episode_filter)
     relevant = [c for c in chunks if c["distance"] <= DISTANCE_REFUSAL_THRESHOLD]
 
     if not relevant:
