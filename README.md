@@ -10,9 +10,9 @@ Answers are grounded strictly in the supplied audio (via transcription + vector 
 ## Features
 
 - **Single vs. All Episode Search Scope**: Filter retrieval to a single specific episode or query across all episodes simultaneously.
-- **Timestamp Citations & Source Audio Seeking**: Interactive citation buttons seek directly to the exact start timestamp in local `.mp3` files, with automatic embedded Google Drive player fallbacks for cloud/deployed hosting.
+- **Timestamp Citations & Source Audio Seeking**: Interactive citation buttons seek directly to the exact start timestamp in local `.mp3` files or via direct GitHub Release (`v1.0.0`) byte-range audio streaming for cloud deployment.
 - **Context-Aware Follow-ups**: Retrieval folds prior conversation context into vector queries so follow-up questions like "walk me through it again" maintain topic continuity.
-- **Clean Sample Prompts & Chat Reset**: Built-in sample question prompts for fast testing and a dedicated `Clear Chat` feature to reset sessions.
+- **Clean Sample Prompts & Session Reset**: Built-in sample question prompts for fast testing and a dedicated `Clear Chat` feature in the sidebar.
 
 ## Setup
 
