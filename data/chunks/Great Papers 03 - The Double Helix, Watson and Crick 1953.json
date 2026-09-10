@@ -1,0 +1,541 @@
+[
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0000",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 0.0,
+    "end": 46.16,
+    "text": "In April of 1953, the journal Nature runs a paper that's barely a page long, about 900 words, one figure, a sketch you could redraw on a napkin. It's by two men in Cambridge, James Watson and Francis Crick, and it proposes a shape for a molecule. And near the end there's a single sentence that has become maybe the most famous act of understatement in all of science. They write, roughly, it has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material. George, that sentence is doing an enormous amount of quiet work."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0001",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 34.72,
+    "end": 79.52,
+    "text": "postulated immediately suggests a possible copying mechanism for the genetic material. George, that sentence is doing an enormous amount of quiet work. I want to understand what they just figured out and why a shape, just a shape, was the answer to the deepest question in biology. It's the answer to the deepest question in biology, precisely because it's a shape, and that's the thing I most want you to feel by the end of the hour, that here, uniquely, the structure of the molecule and the mechanism of life turn out to be the same discovery. So here's our plan. First, I'll set up the problem they were actually facing, which is stranger than, what does DNA look like?"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0002",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 69.04,
+    "end": 115.68,
+    "text": "turn out to be the same discovery. So here's our plan. First, I'll set up the problem they were actually facing, which is stranger than, what does DNA look like? It's, what kind of object could possibly do the two jobs a gene has to do at once? Then we'll lay out the clues on the table in 1953, because they didn't work in the dark. There were three big hints, and one of them is a photograph. Then we'll build the structure, piece by piece, the way they built it. Two chains, a backbone, and the pairing rule that is the whole ball game. And then we'll cash out that understated sentence, how a shape tells you how life copies itself, and deal squarely with the story of who got the credit."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0003",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 101.04,
+    "end": 148.96,
+    "text": "Two chains, a backbone, and the pairing rule that is the whole ball game. And then we'll cash out that understated sentence, how a shape tells you how life copies itself, and deal squarely with the story of who got the credit. Two strands and one pairing rule, and the mechanism of heredity falls out. Start with the problem then. What are the two jobs a gene has to do? Because I think most people, me included, just think genes carry traits and stop there. Right, and carry traits hides the difficulty. Think about what heredity actually requires of a molecule. Job one, it has to store information, a staggering amount of it. The full set of instructions to build and run a living thing,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0004",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 136.4,
+    "end": 182.08,
+    "text": "Think about what heredity actually requires of a molecule. Job one, it has to store information, a staggering amount of it. The full set of instructions to build and run a living thing, an entire organism has to be written down somewhere inside a cell in molecular form. So whatever the genetic material is, it needs to be able to hold a huge specific message. Job two, and this is the one people forget, it has to copy itself faithfully every single time a cell divides. When one cell becomes two, each daughter needs a complete, accurate copy of the whole instruction set. So you need a molecule that is simultaneously a library and a photocopier."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0005",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 170.88,
+    "end": 217.36,
+    "text": "When one cell becomes two, each daughter needs a complete, accurate copy of the whole instruction set. So you need a molecule that is simultaneously a library and a photocopier. It stores a vast message, and it reproduces that message without error over and over for billions of years. And those two demands kind of pull against each other, don't they? A big, complicated message sounds hard to copy cleanly. They pull against each other hard, and that tension is exactly why the structure was such a shock. Because it resolves both at once with a single trick. But in 1953, nobody could see how any molecule pulls it off. And there was a second, more basic uncertainty, just before this."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0006",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 204.32,
+    "end": 250.0,
+    "text": "Because it resolves both at once with a single trick. But in 1953, nobody could see how any molecule pulls it off. And there was a second, more basic uncertainty, just before this. People weren't even fully sure DNA was the genetic material. For a long time the smart money was on proteins, because proteins are built from 20 different building blocks and seemed rich enough to encode a complicated message. DNA, by contrast, has only four building blocks. It looked too simple, too monotonous, to be the carrier of something as intricate as heredity. Only four. So people thought DNA was, what, structural, scaffolding? Something like that."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0007",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 236.8,
+    "end": 283.92,
+    "text": "It looked too simple, too monotonous, to be the carrier of something as intricate as heredity. Only four. So people thought DNA was, what, structural, scaffolding? Something like that. A dull, repetitive molecule may be just packaging for the real genetic protein. But through the 1940s and early 50s experiments kept pointing the other way, that when you transfer heredity from one organism to another, the thing that actually carries it is the DNA, not the protein. So, by about 1952, the field was swinging toward a very uncomfortable conclusion. The genetic material is this simple four-letter molecule, and we have no idea how something with only four kinds of pieces"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0008",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 270.32,
+    "end": 318.16,
+    "text": "So, by about 1952, the field was swinging toward a very uncomfortable conclusion. The genetic material is this simple four-letter molecule, and we have no idea how something with only four kinds of pieces could store a whole organism's worth of instructions, let alone copy them. That's the question sitting on the table. And to get at it, you had to know the molecule's actual physical structure. And that's where the clues come in. Quick step back before the clues. How did we even arrive at a gene is made of something you could photograph? A century earlier, a gene was just an idea, wasn't it? Purely an idea, and it's a nice ladder of narrowing questions to see. It starts with Mendel and his pea plants in the 1860s."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0009",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 306.0,
+    "end": 355.44,
+    "text": "A century earlier, a gene was just an idea, wasn't it? Purely an idea, and it's a nice ladder of narrowing questions to see. It starts with Mendel and his pea plants in the 1860s. He showed that heredity comes in discrete units. Tall or short, wrinkled or smooth, passed down whole, not blended. He called them factors, we'd say genes. But that was bookkeeping, abstract units that explained the ratios in his garden with no physical substance attached. Then, early in the 20th century, those units got a location. Work on the chromosomes, the little thread-like bodies inside a cell that divide up evenly when the cell splits, showed that genes sit along the chromosomes, lined up like beads on a string."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0010",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 343.52,
+    "end": 392.08,
+    "text": "Work on the chromosomes, the little thread-like bodies inside a cell that divide up evenly when the cell splits, showed that genes sit along the chromosomes, lined up like beads on a string. So the gene now had an address. But a chromosome is made of two kinds of stuff mixed together, protein and DNA. So the question sharpened to, which of those two actually carries the information? And once the experiments answered the DNA, there was only one question left standing. What does the DNA look like? Because its shape must be how it does the job. Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0011",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 381.12,
+    "end": 427.12,
+    "text": "Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome, to the chromosome being part protein, part DNA, to the information living in the DNA, to, what is DNA's structure? Each step made the question more physical, more chemical, until the last one was answerable with X-rays and metal models. By 1952, they were standing at that final door, and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0012",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 413.84,
+    "end": 458.88,
+    "text": "and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time, because the detective story quality is real. Clue one is the chemistry, what DNA is made of at the parts level. A strand of DNA is a long chain, and the chain has a repeating backbone made of two alternating pieces. A sugar, called deoxyribose, and a phosphate group. Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0013",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 448.16,
+    "end": 495.76,
+    "text": "Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail, is one of four smaller molecules called bases. The four bases have names we'll shorten to their initials, A, T, G, and C. So picture a long rail with little flags sticking out of it, and each flag is one of four kinds. The message, whatever it is, has to be written in the sequence of those flags, the order of A's, T's, G's, and C's along the rail. That's the only place variety can live, because the backbone is always the same. Before we leave the parts, do those four bases have real names,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0014",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 481.12,
+    "end": 528.64,
+    "text": "the order of A's, T's, G's, and C's along the rail. That's the only place variety can live, because the backbone is always the same. Before we leave the parts, do those four bases have real names, and is there any rhyme to which is which? They do, and there's a useful pattern. The full names are adenine, thymine, guanine, and cytosine. That's your A, T, G, and C. And they fall into two families by size and shape. Adenine and guanine, A and G, are the larger ones built on a double ring of atoms. They're called purines. Thymine and cytosine, T and C, are the smaller ones. A single ring, called pyrimidines."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0015",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 515.76,
+    "end": 561.28,
+    "text": "are the larger ones built on a double ring of atoms. They're called purines. Thymine and cytosine, T and C, are the smaller ones. A single ring, called pyrimidines. So two big bases, two small bases. File that away, because that size difference is going to do real structural work when we build the rungs of the ladder. One aside worth a sentence, there's a chemical cousin of DNA, called RNA, that swaps thymine for a very similar base and usually goes around as a single strand. It's the working disposable copy. DNA is the double-stranded, stable archival version. For today, keep the four letters and the two sizes."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0016",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 551.12,
+    "end": 598.64,
+    "text": "It's the working disposable copy. DNA is the double-stranded, stable archival version. For today, keep the four letters and the two sizes. So the backbone is the boring part, and the four bases, in some order, are the alphabet. That's clue one. What's clue two? Clue two is a beautiful numerical regularity that a biochemist named Irwin Shagaf had measured, and that nobody could explain. Shagaf went and carefully counted the four bases in DNA from all sorts of different organisms, and he found something odd. The amounts of the four bases were different from species to species, but within any given sample, two equalities always held. The amount of A was always essentially equal"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0017",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 587.44,
+    "end": 632.48,
+    "text": "The amounts of the four bases were different from species to species, but within any given sample, two equalities always held. The amount of A was always essentially equal to the amount of T, and the amount of G was always essentially equal to the amount of C. Always. A equals T, G equals C. In every creature he looked at, even though the overall proportions varied. That's the kind of fact that has to mean something. A and T tracking each other exactly. G and C tracking each other exactly. That's not a coincidence. That's a mechanism leaving a fingerprint. That is exactly the right instinct, and hold on to it, because it's going to snap into place"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0018",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 619.68,
+    "end": 664.24,
+    "text": "G and C tracking each other exactly. That's not a coincidence. That's a mechanism leaving a fingerprint. That is exactly the right instinct, and hold on to it, because it's going to snap into place with an almost audible click later. In 1952, though, it was just a rule with no reason. Chargaph's rules a suggestive pattern floating free of any structure. Nobody knew why A should care about T. Now, clue three, and this is the famous one, x-ray diffraction. This is a technique where you shine x-rays through a crystal or a fiber of a molecule, and the regular repeating structure scatters the rays into a pattern of spots and arcs on film."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0019",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 653.76,
+    "end": 698.4,
+    "text": "This is a technique where you shine x-rays through a crystal or a fiber of a molecule, and the regular repeating structure scatters the rays into a pattern of spots and arcs on film. You don't see the molecule directly, you see its diffraction shadow, and from the geometry of that shadow, you can work backward to the shape that cast it. The people doing this for DNA and doing it superbly were at King's College in London. Morris Wilkins and Rosalind Franklin. And this is the Photo 51 I've heard about. This is Photo 51. Rosalind Franklin produced an x-ray diffraction image of DNA, the sharpest anyone had taken, and to a trained eye, it screams two things."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0020",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 686.56,
+    "end": 733.6,
+    "text": "This is Photo 51. Rosalind Franklin produced an x-ray diffraction image of DNA, the sharpest anyone had taken, and to a trained eye, it screams two things. First, the overall pattern is a big, bold x-shape of smeared spots, and that x is the unmistakable signature of a helix. A helix, a spiral, diffracts x-rays into exactly that cross pattern. It's a dead giveaway. Second, the spacings between the marks encode the dimensions, how wide the helix is, and how far you go along it before the spiral repeats. Franklin's data pinned those numbers down. The molecule is a helix of a definite, measurable diameter,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0021",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 722.56,
+    "end": 768.24,
+    "text": "and how far you go along it before the spiral repeats. Franklin's data pinned those numbers down. The molecule is a helix of a definite, measurable diameter, repeating at a definite interval. So Clue 3 says it's a helix, and here are its measurements. So, by the time Watson and Crick sit down, the clues are a sugar-phosphate backbone with four bases as the alphabet, Chagaff's A equals T and G equals C, and Franklin's photo saying, helix, this wide, repeating this often. What do they do with that? They weren't doing experiments themselves, right? Correct, and this is a real feature of the story, not a footnote."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0022",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 755.92,
+    "end": 801.52,
+    "text": "helix, this wide, repeating this often. What do they do with that? They weren't doing experiments themselves, right? Correct, and this is a real feature of the story, not a footnote. Watson and Crick did essentially no experiments on DNA. Their method was model-building. Literally, they had a workshop with bits of metal and wire. Cut to the shapes and sizes of the actual atoms and bonds. At the correct angles and length that chemistry allows, and they tried to assemble those pieces into a structure that satisfied every constraint at once. The known chemistry of the backbone, the dimensions from Franklin's x-ray data, and the requirement that it be a physically sensible molecule"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0023",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 788.8,
+    "end": 834.88,
+    "text": "into a structure that satisfied every constraint at once. The known chemistry of the backbone, the dimensions from Franklin's x-ray data, and the requirement that it be a physically sensible molecule with no atoms jammed impossibly close. It's a three-dimensional jigsaw puzzle where the pieces are atoms and the rules of the laws of chemistry and the measurements from London. Were they the only ones building models? This feels like exactly the kind of prize other people would be racing for. They were very much not alone, and the person breathing down their necks was Linus Pauling, arguably the greatest chemist of the century, who had just triumphantly worked out a key piece of protein structure using this very model-building method."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0024",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 823.92,
+    "end": 870.0,
+    "text": "was Linus Pauling, arguably the greatest chemist of the century, who had just triumphantly worked out a key piece of protein structure using this very model-building method. He was the favourite to crack DNA, too, and Watson and Crick knew it. There's a real sense of a clock ticking through the whole episode. And here's the twist. Early in 1953, Pauling actually published a proposed structure for DNA, and it was wrong. He put forward a triple helix, three strands, with the backbones on the inside, and he'd made a basic chemical slip, arranging the backbone in a form that simply wouldn't hold together. When Watson saw Pauling's manuscript"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0025",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 858.24,
+    "end": 904.0,
+    "text": "with the backbones on the inside, and he'd made a basic chemical slip, arranging the backbone in a form that simply wouldn't hold together. When Watson saw Pauling's manuscript and spotted the error, he realised two things at once. The race was still open, and it wouldn't be for long, because Pauling would see his own mistake within weeks. That's the pressure they were under. So the model-building method cuts both ways. It's fast, but if you publish a wrong model, you publish it in public, mistakes and all. Exactly. And that's the gamble of the whole approach. You're not slowly accumulating measurements. You're making a bold three-dimensional guess and betting it's consistent with everyone else's data."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0026",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 893.52,
+    "end": 940.72,
+    "text": "And that's the gamble of the whole approach. You're not slowly accumulating measurements. You're making a bold three-dimensional guess and betting it's consistent with everyone else's data. Get it right, and you leap ahead of the people doing the patient experiments. Get it wrong, like Pauling just had, and your error is out there for rivals to pounce on. It rewards being fast and being right, and punishes being fast and wrong. That high-stakes quality is part of why this is told as a race. And why the correct arrangement, when they found it, had to satisfy every constraint with no cheating. So it's constraint satisfaction with tinker toys, basically. Where does it start to go wrong or right? Because I imagine there were full starts."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0027",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 930.48,
+    "end": 976.56,
+    "text": "with no cheating. So it's constraint satisfaction with tinker toys, basically. Where does it start to go wrong or right? Because I imagine there were full starts. There were, and one full start is instructive. An early attempt put the backbones on the inside, with the bases pointing outward, like a molecule turned inside out. It didn't work. It couldn't be made to fit the data or the chemistry comfortably. The correction, which turned out to be crucial, was to flip it. Put the two sugar phosphate backbones on the outside, winding around the outside of the structure, and point the bases inward toward the central axis where they meet in the middle. So the final picture starts to look"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0028",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 965.2,
+    "end": 1009.68,
+    "text": "on the outside, winding around the outside of the structure, and point the bases inward toward the central axis where they meet in the middle. So the final picture starts to look like a spiral staircase or a twisted ladder. The two railings of the sugar phosphate backbones on the outside and the rungs in the middle are made of the bases reaching in toward each other from the two sides. A twisted ladder. Two backbone railings on the outside, base rungs in the middle, and there are two strands, not one, that's the double in double helix. Two strands, yes. And here's a subtle but vital detail about how those two strands are oriented. They run in opposite directions."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0029",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 998.4,
+    "end": 1044.16,
+    "text": "that's the double in double helix. Two strands, yes. And here's a subtle but vital detail about how those two strands are oriented. They run in opposite directions. The backbone has a chemical direction to it. Think of it as having a head end and a tail end, a definite polarity, like a one-way street. And in the double helix, the two strands point opposite ways. One runs head to tail going up, the other runs head to tail going down. They're described as anti-parallel. Picture two lanes of a road running alongside each other but with traffic flowing in opposite directions. That anti-parallel arrangement is what lets the two backbones nestle against each other properly"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0030",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1033.52,
+    "end": 1079.52,
+    "text": "running alongside each other but with traffic flowing in opposite directions. That anti-parallel arrangement is what lets the two backbones nestle against each other properly as they twist. Get that detail wrong and the geometry doesn't close up. Okay, so two anti-parallel backbones spiralling on the outside, bases reaching into the middle. Now the rungs, the bases meeting in the centre. This is where it all happens, isn't it? What's the rule for how they meet? This is the whole ball game. Everything has been leading here. The bases point inward and meet in the middle. And the question is, which base pairs with which? And it can't be arbitrary because of a geometry problem."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0031",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1067.36,
+    "end": 1113.76,
+    "text": "Everything has been leading here. The bases point inward and meet in the middle. And the question is, which base pairs with which? And it can't be arbitrary because of a geometry problem. The four bases come in two sizes. Two of them, A and G, are bigger. They're built from a double ring of atoms. They're called purines. The other two, T and C, are smaller, a single ring, called pyrimidines. Now the double helix has to have a constant width all the way up. The two railings stay the same distance apart, because Franklin's photo says the diameter is uniform. So each rung has to be the same length. If you paired two big purines together,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0032",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1101.12,
+    "end": 1146.72,
+    "text": "The two railings stay the same distance apart, because Franklin's photo says the diameter is uniform. So each rung has to be the same length. If you paired two big purines together, the rung would bulge, too wide. Two small pyrimidines, and the rung would be too short. The railings would pinch in. The only way to keep every rung exactly the same width, is to always pair one big base with one small base. A purine across from a pyrimidine every time. So width alone tells you big always pairs with small, but that still leaves choices. A big A could pair with either small base, T or C. What nails it down to specific partners?"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0033",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1132.96,
+    "end": 1180.8,
+    "text": "So width alone tells you big always pairs with small, but that still leaves choices. A big A could pair with either small base, T or C. What nails it down to specific partners? Two things nail it and they agree, which is how they knew they were right. The first is the chemistry of how the bases can touch, specifically hydrogen bonds. A hydrogen bond is a weak attraction, a little molecular handshake that forms when certain atoms line up just so. And when Watson and Crick looked at where the hands stick out on each base, where the hydrogen bonds could form, they found that A and T fit together perfectly. Their handshake points lining up, so the two bases clasp with two hydrogen bonds."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0034",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1170.32,
+    "end": 1216.4,
+    "text": "where the hydrogen bonds could form, they found that A and T fit together perfectly. Their handshake points lining up, so the two bases clasp with two hydrogen bonds. And G and C fit together perfectly, clasping with three hydrogen bonds. But A with C or G with T, the hands don't line up, they don't clasp. So the chemistry itself selects the partners. A pairs with T, G pairs with C. Each is a purine with a pyrimidine, so the width is constant and each makes a clean hydrogen bonded clasp, so the fit is specific. A with T, G with C, and wait. A equals T, G equals C,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0035",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1204.32,
+    "end": 1252.08,
+    "text": "and each makes a clean hydrogen bonded clasp, so the fit is specific. A with T, G with C, and wait. A equals T, G equals C, that's Chagav, that's the click you told me to wait for. That's the click. Listen to how completely it lands. If every single A in the molecule is sitting across the ladder from a T, holding hands with it, then the number of A's must equal the number of T's, automatically, structurally, with no other explanation needed. And if every G faces a C, the number of G's must equal the number of C's. Chagav's mysterious rule, A equals T and G equals C, isn't a coincidence and isn't a free-floating fact."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0036",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1240.72,
+    "end": 1286.88,
+    "text": "the number of G's must equal the number of C's. Chagav's mysterious rule, A equals T and G equals C, isn't a coincidence and isn't a free-floating fact. It's the direct fingerprint of base pairing. The structure predicts the rule. The moment you see the ladder with its A, T and G, C rungs, Chagav's numbers stop being a mystery and become a consequence. That's the kind of thing that tells you you're not just fitting the data, you found the reason. One thing before we move on, the message is all tucked away on the inside, buried between the rungs. How does anything ever read it if it's hidden in the core of the helix? Beautiful question, and the answer is a feature of the shape we haven't named yet."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0037",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1276.16,
+    "end": 1322.08,
+    "text": "buried between the rungs. How does anything ever read it if it's hidden in the core of the helix? Beautiful question, and the answer is a feature of the shape we haven't named yet. The grooves. When two strands twist around each other, they don't cover the whole surface evenly. The winding leaves two spiral channels running along the outside of the helix, one wider and one narrower, called the major and minor grooves. And here's the key. Although the bodies of the bases are buried in the middle, the edges of each base pair face outward into those grooves. Each kind of pair, an A, T, a G, C, presents a distinctive little pattern of chemical bumps and hollows along the groove."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0038",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1308.88,
+    "end": 1355.76,
+    "text": "the edges of each base pair face outward into those grooves. Each kind of pair, an A, T, a G, C, presents a distinctive little pattern of chemical bumps and hollows along the groove. So a protein can slide along the groove and in effect feel the sequence by touch. Read which letters are there from the outside without ever unzipping the helix. So reading and copying are two different operations. Copying needs you to unzip, but just reading the sequence to decide which gene to switch on, you can do from the outside. Precisely. And that distinction runs all of biology's regulation. The proteins that decide which genes are active in which cells, at which times,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0039",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1345.68,
+    "end": 1392.24,
+    "text": "Precisely. And that distinction runs all of biology's regulation. The proteins that decide which genes are active in which cells, at which times, work largely by reading those groove patterns. Recognizing a specific short sequence and latching onto it. No unzipping required. Copying the whole molecule is the big disruptive operation where you split it down the middle. Reading a stretch to control it is the gentle everyday one where a protein palpates the groove. The structure supports both, buried enough to protect the message, exposed enough at the edges to let it be read. Now, with all that in hand, cash out the famous sentence. Right, we have the structure."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0040",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1380.4,
+    "end": 1428.0,
+    "text": "buried enough to protect the message, exposed enough at the edges to let it be read. Now, with all that in hand, cash out the famous sentence. Right, we have the structure. A double helix, two anti-parallel backbones outside, base-rung pairs inside, A with T, and G with C. How does this shape tell you how DNA copies itself? Here's the magic. And it really is one idea doing two jobs. Look at the pairing rule again. A always goes with T, G always goes with C. That means the two strands are not independent. They are complementary. If I tell you the sequence of bases along one strand, you can tell me the sequence along the other strand,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0041",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1417.28,
+    "end": 1461.92,
+    "text": "That means the two strands are not independent. They are complementary. If I tell you the sequence of bases along one strand, you can tell me the sequence along the other strand, exactly, with no additional information, just by applying the rule. Wherever I have an A, you must have a T. Wherever I have a G, you must have a C. Each strand completely determines its partner. The two strands carry the same information twice, written in complementary form, like a photograph and its negative. So the second strand is redundant in a sense. It doesn't add new information, it's the mirror image of the first. Redundant in information, but that redundancy is the entire secret of copying."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0042",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1449.52,
+    "end": 1493.84,
+    "text": "So the second strand is redundant in a sense. It doesn't add new information, it's the mirror image of the first. Redundant in information, but that redundancy is the entire secret of copying. Watch what it buys you. Suppose you want to duplicate the molecule. You take the double helix, and you unzip it down the middle. You break the weak hydrogen bond handshakes holding the rungs together, and the two strands separate, like a zipper coming apart. Now you have two lonely single strands, each one an exposed row of unpaired bases. But each of those single strands carries, in its sequence, the complete recipe for its missing partner, because of the pairing rule."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0043",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1482.4,
+    "end": 1529.68,
+    "text": "each one an exposed row of unpaired bases. But each of those single strands carries, in its sequence, the complete recipe for its missing partner, because of the pairing rule. So the cell just walks along each lonely strand, and wherever there's an exposed A, it brings in a fresh T. Wherever there's a G, it brings in a fresh C. Each old strand acts as a template that reconstructs its own complement. And when it's done, you don't have one double helix. You have two, each a perfect copy of the original, each made of one old strand, and one freshly built one. Oh, that's clean. You don't copy the whole thing as a unit, you split it in half and let each half rebuild the missing side."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0044",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1517.84,
+    "end": 1564.16,
+    "text": "each made of one old strand, and one freshly built one. Oh, that's clean. You don't copy the whole thing as a unit, you split it in half and let each half rebuild the missing side. And because the pairing rule is rigid, the rebuild is forced to be faithful. Forced to be faithful. That's exactly it. And that's why the structure is the mechanism. The fidelity of copying isn't some separate machinery bolted on. It's baked into the shape because A can only accept T and G can only accept C. The template leaves only one correct answer at each position. And now you see why that closing sentence could be so understated. When they wrote, the specific pairing we have postulated"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0045",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1553.04,
+    "end": 1599.76,
+    "text": "correct answer at each position. And now you see why that closing sentence could be so understated. When they wrote, the specific pairing we have postulated immediately suggests a possible copying mechanism, they were pointing at the fact that they hadn't just drawn a pretty molecule, they had drawn the solution to both of Heredity's jobs at once. Storage. The message is the sequence of bases along a strand, a four-letter text of essentially unlimited length. Copying. Unzip and each strand templates a new partner. One structure, both problems, solved together. The unzipping bothers me a little. If this molecule has to be rock-stable to archive information for a lifetime,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0046",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1589.6,
+    "end": 1635.28,
+    "text": "One structure, both problems, solved together. The unzipping bothers me a little. If this molecule has to be rock-stable to archive information for a lifetime, how does the cell ever pull the two strands apart to copy them? This is where the choice of hydrogen bonds turns out to be quietly perfect, and it's worth pausing on. A single hydrogen bond is weak, feeble, easily broken. If each rung of the ladder were welded shut with a strong chemical bond, you'd never get the thing open to read it. But because each rung is held by just two or three of these weak bonds, any individual rung is easy to unzip. The stability comes from numbers. A real DNA molecule has millions or billions of rungs,"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0047",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1623.52,
+    "end": 1670.24,
+    "text": "by just two or three of these weak bonds, any individual rung is easy to unzip. The stability comes from numbers. A real DNA molecule has millions or billions of rungs, and while anyone is flimsy, all of them together, zipped up, make the whole helix very stable. Like a long zipper, where each tooth is nothing but the full zipper holds firmly. So the cell can peel the strands apart locally, a stretch at a time, with modest effort. A dedicated enzyme runs along and unzips it, while the molecule as a whole stays intact and archival. And does the two versus three-bond difference between AT and GC actually show up anywhere, or is it just bookkeeping?"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0048",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1659.2,
+    "end": 1704.32,
+    "text": "stays intact and archival. And does the two versus three-bond difference between AT and GC actually show up anywhere, or is it just bookkeeping? It shows up very concretely. Because a GC rung has three hydrogen bonds and an AT rung only two, GC pairs grip harder. So a stretch of DNA rich in Gs and Cs is more stable, more tightly zipped, than a stretch rich in As and Ts. You can measure this directly. If you heat DNA, it eventually melts. The two strands come apart, and DNA with more GC content has to be heated hotter before it lets go. That's not a curiosity."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0049",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1693.12,
+    "end": 1739.2,
+    "text": "it eventually melts. The two strands come apart, and DNA with more GC content has to be heated hotter before it lets go. That's not a curiosity. It matters to how cells regulate which stretches get opened and read, and it's something molecular biologists use in the lab every day. Two weak bonds versus three. A tiny structural detail that ripples all the way up to how sturdy a given piece of the genome is. I want to be careful about one thing, though. They propose that copying mechanism. Did they prove it? Because the shape suggests it is not the same as we watched it happen. That's an important distinction, and I'm glad you're holding the line on it. No, they did not prove it in this paper."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0050",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1728.0,
+    "end": 1772.72,
+    "text": "Because the shape suggests it is not the same as we watched it happen. That's an important distinction, and I'm glad you're holding the line on it. No, they did not prove it in this paper. The paper proposes the structure and points in that one sentence at what it implies. The actual proof that DNA copies this way came a few years later, in 1958, from a now classic experiment by Matthew Messelsen and Franklin Stahl. They found a clever way to label the old strands versus the newly built ones, essentially weighing them, and they showed that after copying each new double helix really is one old strand plus one new strand exactly as the template idea predicts."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0051",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1761.68,
+    "end": 1806.64,
+    "text": "essentially weighing them, and they showed that after copying each new double helix really is one old strand plus one new strand exactly as the template idea predicts. That mode of copying, where each daughter keeps one original strand, is called semi-conservative because each copy conserves half of the original. So the sequence is, Watson and Crick propose the structure and its implied mechanism in 53. Messelsen and Stahl confirm the mechanism in 58. Don't let anyone collapse those into one. The confirmation was its own beautiful piece of work. If the copying is that faithful though, here's something that nags at me. Where does change come from?"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0052",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1794.72,
+    "end": 1840.16,
+    "text": "Don't let anyone collapse those into one. The confirmation was its own beautiful piece of work. If the copying is that faithful though, here's something that nags at me. Where does change come from? Evolution needs variation. A perfect copier makes identical descendants forever. And that's a lovely question because the same structure answers it too through its imperfections. The copying is faithful, but it is not flawless. Every so often, as the cell rebuilds a strand, it slips. It puts a C where a T belonged or drops a letter or adds one. That's a mutation, a typo in the text. Now here's the crucial part and it follows straight"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0053",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1828.56,
+    "end": 1874.32,
+    "text": "It puts a C where a T belonged or drops a letter or adds one. That's a mutation, a typo in the text. Now here's the crucial part and it follows straight from the copying mechanism. Once that typo is made, it's just part of the sequence, indistinguishable from any other letter. So from then on, it gets copied forward faithfully into every descendant. The error becomes heritable. Most typos do nothing or do harm. But once in a great while, a change happens to make the organism a little better suited to its world and natural selection can grab hold of it and spread it. So the same mechanism does two opposite-sounding things. It preserves the message"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0054",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1862.88,
+    "end": 1908.32,
+    "text": "a little better suited to its world and natural selection can grab hold of it and spread it. So the same mechanism does two opposite-sounding things. It preserves the message almost perfectly and its rare failures are exactly the raw material evolution feeds on. That's the deep unity of it. Constancy and change come from one place. The high fidelity is what lets a lineage stay itself across millions of generations. The tiny error rate is what lets it slowly become something new. Before the double helix, heredity and variation could feel like two separate mysteries. After it, there are two faces of a single molecular process. Copy the complementary strand"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0055",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1897.76,
+    "end": 1942.8,
+    "text": "heredity and variation could feel like two separate mysteries. After it, there are two faces of a single molecular process. Copy the complementary strand almost always right, occasionally wrong and let the occasional wrong ones ride forward. Mutation is just a copying error that got archived. Evolution runs on the typos. Good. So the structure predicted a very specific way of copying and five years later someone caught the molecule doing exactly that. Let me pull back to the information side because you keep saying the message is the sequence. Only four letters. Come back to the thing people doubt it. How is four letters"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0056",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1931.76,
+    "end": 1977.28,
+    "text": "to the information side because you keep saying the message is the sequence. Only four letters. Come back to the thing people doubt it. How is four letters enough to write an organism? It's the same reason two symbols are enough to write anything a computer knows. Think about it. A language's power doesn't come from having many letters. It comes from length and order. With an alphabet of just four letters but a text millions or billions of letters long, the number of possible messages is beyond astronomical. Four choices at the first position times four at the second times four at the third on and on for billions of positions. The variety isn't in the size of the alphabet."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0057",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 1965.84,
+    "end": 2013.28,
+    "text": "Four choices at the first position times four at the second times four at the third on and on for billions of positions. The variety isn't in the size of the alphabet. It's in the sequence. So the early worry only four building blocks too simple to encode life was exactly backwards. Four letters in a long enough string can spell out anything and DNA strings are enormous. The information is in the order and the order can be endless. And that reframes the whole molecule. The backbone, the helix, the pairing all of that is the storage and copying machine. But the actual content, the thing that differs between a fern and a person is just the order of the four letters."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0058",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2002.08,
+    "end": 2048.32,
+    "text": "all of that is the storage and copying machine. But the actual content, the thing that differs between a fern and a person is just the order of the four letters. That's the correct mental picture and it's the foundation of everything that came after. Once you know that heredity is a four letter text stored in base sequence and copied by complementarity, you've opened the door to the whole of molecular biology. How the cell reads that text to build the actual working parts, the proteins, is the next chapter, the genetic code. How three letter words of DNA specify the pieces of a protein. But all of that presupposes this that there's a text at all written in a stable copyable molecule."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0059",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2037.44,
+    "end": 2083.28,
+    "text": "How three letter words of DNA specify the pieces of a protein. But all of that presupposes this that there's a text at all written in a stable copyable molecule. The double helix is what made the gene a physical, chemical, readable thing instead of an abstraction. You said reading the text builds the working parts. Give me the flow of that and a sense of how big this text actually is. The flow is the thing biologists call the central dogma and it's worth having as a single arrow in your head. DNA is the master archive kept safe. To use a gene, the cell makes a working copy of that stretch in RNA. That's transcription, like photocopying one page"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0060",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2071.76,
+    "end": 2117.2,
+    "text": "DNA is the master archive kept safe. To use a gene, the cell makes a working copy of that stretch in RNA. That's transcription, like photocopying one page out of the reference volume so you don't drag the original around. Then that RNA copy is read out and used to assemble a protein. That's translation and proteins are the actual machines. They build structures, run the chemistry, do the work of being alive. So the main flow of information is DNA to RNA to protein. Archive, working copy, machine. The double helix is the archive at the top of that chain. And the scale of the archive the scale is hard to believe."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0061",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2107.12,
+    "end": 2152.96,
+    "text": "Archive, working copy, machine. The double helix is the archive at the top of that chain. And the scale of the archive the scale is hard to believe. A single one of your cells holds a text of roughly three billion of these letters. Three billion A's, T's, G's and C's in a particular order. And if you took the DNA from that one cell and stretched it out into a straight thread, it would be about two meters long. Two meters of molecular ribbon wound and folded down into a compartment far too small to see with the naked eye. And there's a copy in nearly every cell in your body and each was produced by unzipping and templating from its parent cell almost letter perfectly."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0062",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2142.56,
+    "end": 2187.6,
+    "text": "with the naked eye. And there's a copy in nearly every cell in your body and each was produced by unzipping and templating from its parent cell almost letter perfectly. That's the economy the double helix bought us. Four letters, one pairing rule and you have a storage and copying system compact enough to fit a whole organism's instructions into a spec and reliable enough to run for billions of years. One more on the reading side. You said earlier that the code is read in three letter words. Where does three come from? How do four letters end up specifying the parts of a protein? It comes from a simple counting argument and it's satisfying. Proteins are chains built from about 20 different kinds"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0063",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2176.56,
+    "end": 2221.12,
+    "text": "How do four letters end up specifying the parts of a protein? It comes from a simple counting argument and it's satisfying. Proteins are chains built from about 20 different kinds of building blocks, 20 amino acids. DNA has four letters so the cell has to spell out 20 odd things using an alphabet of only four. How many letters per word do you need? One letter gives you four options not enough. Two letters give you four times four 16 still short of 20. Three letters give you four times four times four 64 possibilities comfortably more than enough to name all 20 amino acids with combinations left over."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0064",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2210.8,
+    "end": 2256.16,
+    "text": "Three letters give you four times four times four 64 possibilities comfortably more than enough to name all 20 amino acids with combinations left over. So the code is read in three letter words called codons and that's forced almost by arithmetic. Three is the smallest word length that covers 20. And with 64 words for 20 something meanings there's a lot of redundancy. Several words mean the same amino acid. Exactly and that redundancy is built in and useful. Several codons often map to the same amino acid and a few servers stop punctuation marking the end of a protein. The full dictionary of which triplet"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0065",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2245.2,
+    "end": 2290.96,
+    "text": "Several codons often map to the same amino acid and a few servers stop punctuation marking the end of a protein. The full dictionary of which triplet means which amino acid is the genetic code and it was cracked through the 1960s over a decade after the structure. Here's the part that gives people chills. That code is very nearly the same in every living thing. The same triplets mean the same amino acids in a bacterium, a redwood and you. That near universality is powerful evidence that everything alive descends from a common ancestor that already used this code. So the chain is complete. Base sequence"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0066",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2280.4,
+    "end": 2326.64,
+    "text": "is powerful evidence that everything alive descends from a common ancestor that already used this code. So the chain is complete. Base sequence red in triplets spells an amino acid sequence which folds into a protein and it all rests on there being a stable copyable sequence in the first place which is what the double helix delivered. Before we get to legacy we have to talk about the credit because you promise to deal with it squarely and it's a real part of this story. Rosalind Franklin where does she sit in what we just described? She sits much closer to the centre than the famous two-name paper makes it look and I'll lay it out plainly without turning it into either a fairy tale"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0067",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2315.84,
+    "end": 2360.4,
+    "text": "in what we just described? She sits much closer to the centre than the famous two-name paper makes it look and I'll lay it out plainly without turning it into either a fairy tale or a courtroom. The X-ray evidence that the molecule is a helix of specific dimensions Clue 3, the one that constrained the whole model came in large part from Rosalind Franklin's work. Photo 51 was her image taken in her lab. Her measurements of the diameter and the repeat were among the hardest most decisive numbers and a crucial fact about how the story actually went. That photograph and a report containing her unpublished measurements were shown to Watson without her knowledge or agreement."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0068",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2350.08,
+    "end": 2395.12,
+    "text": "and a crucial fact about how the story actually went. That photograph and a report containing her unpublished measurements were shown to Watson without her knowledge or agreement. So the data that let the model click into place was hers and it reached Cambridge through a side door. And she didn't share in the recognition the way the others did. She did not. The Nobel Prize for this work was awarded in 1962 to Watson, Crick and Wilkins. Rosalind Franklin had died in 1958 of cancer at 37 and the prize is not given after death. So she could not have shared it in 1962 regardless. But that technicality shouldn't be allowed to smooth over the fuller point."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0069",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2384.88,
+    "end": 2429.68,
+    "text": "and the prize is not given after death. So she could not have shared it in 1962 regardless. But that technicality shouldn't be allowed to smooth over the fuller point. During her life her contribution was under-weighted both in the moment and in the popular telling for decades afterward. And the use of her data without her consent is a real part of how the discovery was made. The structure is right and it's one of the great results in the history of science and it stands on x-ray work that was substantially hers obtained in a way that wasn't fair to her. Both of those things are true at once and the mature way to hold this paper is to hold both. I appreciate that you didn't flatten it either way."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0070",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2419.04,
+    "end": 2463.92,
+    "text": "that wasn't fair to her. Both of those things are true at once and the mature way to hold this paper is to hold both. I appreciate that you didn't flatten it either way. Let me ask the tie to now question. This is a paper from 1953 about the shape of a molecule. What does it touch in my life today? Almost more than any other single result we could name. The instant you know heredity is a four-letter text you can read and in principle write two whole technologies become inevitable and both are now everywhere. Reading DNA sequencing determining the exact order of A's T's G's and C's in a genome."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0071",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2453.36,
+    "end": 2499.12,
+    "text": "and both are now everywhere. Reading DNA sequencing determining the exact order of A's T's G's and C's in a genome. We've gone from that being a heroic decades-long effort for one human genome to something done cheaply and routinely and it underlies modern medicine ancestry tests tracking a virus as it mutates through a pandemic all of it. That's just read the sequence at industrial scale and writing gene editing tools like the one called CRISPR that let us go to a specific spot in the text and change a letter to fix a mutation that causes disease. Every bit of that is downstream"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0072",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2488.56,
+    "end": 2532.88,
+    "text": "called CRISPR that let us go to a specific spot in the text and change a letter to fix a mutation that causes disease. Every bit of that is downstream of the realization that life runs on an editable copyable four-letter code. Watson and Crick told us the message exists and how it's stored. We're now fluent enough to read it and starting to write it. So the napkin sketch from 1953 is running inside every genetics lab and every sequencing machine on Earth. Every one of them and what I'd want you to carry out of this is how much came from insisting on a physical structure. Before this the gene was a word for a pattern of inheritance"
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0073",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2521.6,
+    "end": 2566.8,
+    "text": "Every one of them and what I'd want you to carry out of this is how much came from insisting on a physical structure. Before this the gene was a word for a pattern of inheritance real but abstract a bookkeeping entry in Mendel's ledger. Watson and Crick using Franklin's and Wilkins' data and Shargav's rule and a box of model parts turned it into a thing a specific molecule with a specific shape whose shape explains in one stroke how it stores a message and how it copies that message. They didn't discover that genes exist they discovered what a gene is and it turned out to be a beautiful simple self-copying spiral of complementary text."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0074",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2556.56,
+    "end": 2595.92,
+    "text": "They didn't discover that genes exist they discovered what a gene is and it turned out to be a beautiful simple self-copying spiral of complementary text. Structure is mechanism the shape was the answer. Thanks for walking through how a page and a half in nature became the floor that all of modern biology stands on. Next time you hear it's in my DNA you can picture the actual thing two complementary strands A to T and G to C a molecule holding the same message twice so that it can always faithfully make one more copy."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0075",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2585.04,
+    "end": 2595.92,
+    "text": "two complementary strands A to T and G to C a molecule holding the same message twice so that it can always faithfully make one more copy."
+  },
+  {
+    "chunk_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953_0076",
+    "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+    "start": 2586.96,
+    "end": 2595.92,
+    "text": "A to T and G to C a molecule holding the same message twice so that it can always faithfully make one more copy."
+  }
+]

@@ -1,0 +1,835 @@
+{
+  "eval_01": {
+    "type": "direct",
+    "query": "According to the Special Relativity episode, what are Einstein's two postulates that the theory is built on?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "Einstein\u2019s theory rests on two simple, explicit assumptions:\n\n1. **The principle of relativity** \u2013 the laws of physics are the same for every inertial (steady\u2011moving) observer.  \n2. **The constancy of the speed of light** \u2013 light in vacuum travels at one fixed speed for all inertial observers, no matter how the source or the observer is moving.\n\nThese two postulates are stated in the episode when it says: \u201cPhysics is the same for all steady observers, and light has one speed for all of them.\u201d\u3010Great Papers 01 - Einstein's Special Relativity @ 2758-2804s\u3011",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "end": 3125.6
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2757.52,
+        "end": 2804.08
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 33.2,
+        "end": 80.4
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2829.76,
+        "end": 2880.64
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2400.16,
+        "end": 2451.12
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 3125.6,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "text": "it's quietly confirming that 1905 paper. So the patent clock's spare time paper is running silently every time we find our way home. Every single time. Two postulates, written at a desk between patent applications, and the fixed backdrop of the universe, turned out to be a participant. Space stretches, time slows, the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies, thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen",
+        "distance": 0.8927423357963562
+      },
+      {
+        "end": 2804.08,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2757.52,
+        "text": "Same two postulates, one more consequence. So let me try to say the whole arc back because I want to feel the shape of it. Einstein starts with a discomfort, one current, two stories, and a stubborn fact. You can't detect motion through the ether. He turns those into two postulates. Physics is the same for all steady observers, and light has one speed for all of them. To keep light speed rigid, simultaneity has to become relative. There's no shared now. From that, moving clocks run slow and moving rulers shrink, both by the factor gamma, and each observer sees it happen to the other, with no contradiction because they never share",
+        "distance": 0.9059834480285645
+      },
+      {
+        "end": 80.4,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 33.2,
+        "text": "George, I want to actually understand how a person talks themselves into that. What is Einstein even trying to fix when he sits down? He's trying to fix a crack that had been quietly widening in physics for about 40 years. And the beautiful thing is that the crack is not exotic. It's sitting in the most successful theory of the century. So here's the whole plan for today. We're going to start with that crack, the electrodynamics of moving bodies, and see why it forced a choice. Then Einstein makes two assumptions, just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate. Simultaneity comes apart, moving",
+        "distance": 0.9506166577339172
+      },
+      {
+        "end": 2880.64,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2829.76,
+        "text": "That's the arc exactly. And the thing I'd want anyone to carry away is how little raw material it took. No new particle, no new force, no new experiment of his own. Just two postulates and the refusal to look away from what they imply. The cost was our intuition that space and time are absolute and universal. The payoff was a universe that finally made consistent sense from every point of view. And it wasn't the end, it was a doorway. A few years later, Herman Minkowski took Einstein's clocks and rulers and showed they fit together into a single four-dimensional geometry, spacetime, where space and time are just different directions in one fabric. And that reframing is exactly what let Einstein, a decade on, ask what happens when",
+        "distance": 0.9695560932159424
+      },
+      {
+        "end": 2451.12,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2400.16,
+        "text": "carved up differently by observers in relative motion. And notice what Einstein did and didn't do here. He didn't modify Maxwell's equations to make this work. He kept them exactly in every frame. That was postulate one applied to electrodynamics and he changed space and time instead so that the equations could hold for everyone. He bent the stage to save the play. There's a phrase you used earlier that I keep coming back to. You didn't change the light, you changed the stage. That's really the whole thing isn't it? That's the whole thing in nine words. Every other physicist facing the aether trouble was trying to change the light or the matter or invent a mechanism. A drag, a contraction, a substance. Einstein left light exactly as",
+        "distance": 1.001667857170105
+      }
+    ]
+  },
+  "eval_02": {
+    "type": "direct",
+    "query": "According to the Hawking episode, what does Hawking radiation suggest happens at the edge of a black hole?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "The episode explains that Hawking radiation means the **horizon (the \u201cedge\u201d) of a black hole is not perfectly black** \u2013 quantum\u2011vacuum effects at that surface cause it to emit a **thermal glow**. In other words, the combination of a horizon with the quantum vacuum makes the black hole radiate particles, so something can come out from the edge even though classical general relativity says nothing can escape.  \n\n**Sources**  \n- [Great Papers 02 \u2013 How Black Holes Radiate, Hawking 1975 @\u202f77\u2011124s] \u2013 describes how the quantum vacuum \u201coutfalls radiation, a perfect thermal glow\u201d at the black hole\u2019s surface.  \n- [Great Papers 02 \u2013 How Black Holes Radiate, Hawking 1975 @\u202f1755\u20111801s] \u2013 says the mechanism is \u201ca horizon plus a quantum \u2026 makes thermal radiation.\u201d  ",
+    "citations": [
+      {
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 76.72,
+        "end": 123.68
+      },
+      {
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1789.04,
+        "end": 1836.16
+      },
+      {
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 430.96,
+        "end": 477.76
+      },
+      {
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1754.72,
+        "end": 1800.72
+      },
+      {
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 38.0,
+        "end": 88.32
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 123.68,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 76.72,
+        "text": "forces the hole to have a temperature. Then Hawking, trying to prove that idea wrong, brings in the quantum vacuum and outfalls radiation, a perfect thermal glow. And once we have the glow, everything cascades. Black holes evaporate, they have a genuine thermodynamics, and they hand us a paradox about information that is still open half a century later. Two ingredients, a horizon and the quantum vacuum, and the blackest object in the sky turns grey and mortal. Let's build the classical black hole first then. What actually is it? Strip down. Strip it all the way down, and a black hole is a region of space-time where gravity is so strong that there's a one-way surface around it.",
+        "distance": 0.7573261857032776
+      },
+      {
+        "end": 1836.16,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1789.04,
+        "text": "but it directly tests the mechanism that a horizon plus a quantum or even just a wavy vacuum makes thermal radiation. Now, with the glow established, let's collect the prize that started this whole thing, because Bekenstein turns out to be vindicated in the most complete way. Right, we started with Bekenstein saying area is entropy, and Hawking trying to knock it down. How does it end? It ends with Bekenstein not just rescued, but made exact. Once you know the black hole's temperature, thermodynamics lets you compute its entropy precisely, and the answer is stunningly clean. A black hole's entropy is one quarter of its horizon area measured in natural quantum gravity units.",
+        "distance": 0.7604940533638
+      },
+      {
+        "end": 477.76,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 430.96,
+        "text": "Hawking enters, initially as a skeptic. In thermodynamics, entropy and temperature are joined at the hip. If a black hole genuinely has entropy, then it must have a temperature, some definite number of degrees. And anything with a non-zero temperature radiates. A hot poker glows red. Your own body glows in the infrared. Everything with a temperature above absolute zero gives off thermal radiation. So Beckenstein's idea, taken seriously, demands that a black hole radiate. And that is flatly, obviously impossible in general relativity, because we just spent 10 minutes establishing that nothing gets out. So Hawking's reaction was, reasonably, this shows Beckenstein has gone",
+        "distance": 0.7664883136749268
+      },
+      {
+        "end": 1800.72,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1754.72,
+        "text": "across that analogue horizon. Some of these experiments report seeing exactly the kind of thermal, paired emission the theory predicts. So we can't visit a black hole, but we can build a little sonic one on a lab bench and watch it glow. That's the spirit of it, and it's one of the more delightful corners of modern physics. Chasing a 1970s black hole prediction in a tank of flowing water or a puff of atoms near absolute zero. It doesn't prove the gravitational case beyond all doubt, because the analogy has limits, but it directly tests the mechanism that a horizon plus a quantum or even just a wavy vacuum makes thermal radiation. Now, with the glow established,",
+        "distance": 0.7708055973052979
+      },
+      {
+        "end": 88.32,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 38.0,
+        "text": "the blackest thing in the universe to it glows, because those sound like opposites. They are opposites, and that's exactly why this result is one of the great shocks in physics. It comes from slamming two theories together that nobody had properly introduced. So here's our plan for the hour. First we build the classical black hole, the one general relativity gives you, and I'll convince you it really is perfectly black and eternal. Then we bring in a puzzle from thermodynamics, Beckenstein's puzzle, that says a black hole ought to have entropy, which sounds harmless until you realise it forces the hole to have a temperature. Then Hawking, trying to prove that idea wrong, brings in the quantum vacuum and outfalls radiation, a perfect thermal glow.",
+        "distance": 0.8381893634796143
+      }
+    ]
+  },
+  "eval_03": {
+    "type": "direct",
+    "query": "According to the Double Helix episode, what shape did Watson and Crick propose for the structure of DNA?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "The excerpts you provided describe Watson and\u202fCrick\u2019s model\u2011building approach, the clues they used, and how they differed from Linus\u202fPauling\u2019s (incorrect) triple\u2011helix proposal, but none of the quoted passages actually state the specific shape they proposed for DNA. Therefore, the supplied episode excerpts don\u2019t contain a direct answer to the question.  \n\n**Sources consulted:**  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f756\u2011802\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f824\u2011870\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f381\u2011427\u202fs]  \n- [Great Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953 @\u202f414\u2011459\u202fs]  ",
+    "citations": [
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 755.92,
+        "end": 801.52
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 823.92,
+        "end": 870.0
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 1761.68,
+        "end": 1806.64
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 381.12,
+        "end": 427.12
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 413.84,
+        "end": 458.88
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 801.52,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 755.92,
+        "text": "helix, this wide, repeating this often. What do they do with that? They weren't doing experiments themselves, right? Correct, and this is a real feature of the story, not a footnote. Watson and Crick did essentially no experiments on DNA. Their method was model-building. Literally, they had a workshop with bits of metal and wire. Cut to the shapes and sizes of the actual atoms and bonds. At the correct angles and length that chemistry allows, and they tried to assemble those pieces into a structure that satisfied every constraint at once. The known chemistry of the backbone, the dimensions from Franklin's x-ray data, and the requirement that it be a physically sensible molecule",
+        "distance": 0.4381072521209717
+      },
+      {
+        "end": 870.0,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 823.92,
+        "text": "was Linus Pauling, arguably the greatest chemist of the century, who had just triumphantly worked out a key piece of protein structure using this very model-building method. He was the favourite to crack DNA, too, and Watson and Crick knew it. There's a real sense of a clock ticking through the whole episode. And here's the twist. Early in 1953, Pauling actually published a proposed structure for DNA, and it was wrong. He put forward a triple helix, three strands, with the backbones on the inside, and he'd made a basic chemical slip, arranging the backbone in a form that simply wouldn't hold together. When Watson saw Pauling's manuscript",
+        "distance": 0.5639345645904541
+      },
+      {
+        "end": 1806.64,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 1761.68,
+        "text": "essentially weighing them, and they showed that after copying each new double helix really is one old strand plus one new strand exactly as the template idea predicts. That mode of copying, where each daughter keeps one original strand, is called semi-conservative because each copy conserves half of the original. So the sequence is, Watson and Crick propose the structure and its implied mechanism in 53. Messelsen and Stahl confirm the mechanism in 58. Don't let anyone collapse those into one. The confirmation was its own beautiful piece of work. If the copying is that faithful though, here's something that nags at me. Where does change come from?",
+        "distance": 0.6997205344964759
+      },
+      {
+        "end": 427.12,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 381.12,
+        "text": "Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome, to the chromosome being part protein, part DNA, to the information living in the DNA, to, what is DNA's structure? Each step made the question more physical, more chemical, until the last one was answerable with X-rays and metal models. By 1952, they were standing at that final door, and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time,",
+        "distance": 0.7013227343559265
+      },
+      {
+        "end": 458.88,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 413.84,
+        "text": "and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time, because the detective story quality is real. Clue one is the chemistry, what DNA is made of at the parts level. A strand of DNA is a long chain, and the chain has a repeating backbone made of two alternating pieces. A sugar, called deoxyribose, and a phosphate group. Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail,",
+        "distance": 0.7061543464660645
+      }
+    ]
+  },
+  "eval_04": {
+    "type": "cross_episode",
+    "query": "Compare how the Special Relativity episode and the Double Helix episode each describe a moment where existing scientific assumptions had to be overturned by new evidence.",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "The **Special Relativity** episode tells us that, by the early 1900s, physicists were facing a \u201ccrack\u201d in the existing theory of electrodynamics\u2014a conflict that had been growing for decades.\u202fEinstein\u2019s response was to discard the old ideas of absolute time and space and replace them with two modest\u2011looking postulates (the constancy of the speed of light and the equivalence of all inertial frames).\u202fThose postulates \u201cdetonate\u201d the old assumptions, forcing us to give up simultaneity, fixed lengths and universal durations in favor of a new spacetime picture\u202f[Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f33\u201180s;\u202f68\u2011114s].\n\nThe **Double Helix** episode is not included in the excerpts you provided, so we have no description of how that story portrays a similar overturning of scientific assumptions.\u202fTherefore a direct comparison cannot be made with the material at hand.\n\n**Cited excerpts**\n- [Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f33\u201180s] \u2013 describes the \u201ccrack\u201d in physics that Einstein set out to fix.  \n- [Great Papers\u202f01 \u2013 Einstein\u2019s Special Relativity @\u202f68\u2011114s] \u2013 outlines the two new postulates that replace the old assumptions.",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 67.76,
+        "end": 114.16
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "end": 3125.6
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2254.48,
+        "end": 2302.56
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 33.2,
+        "end": 80.4
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2867.84,
+        "end": 2914.56
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 114.16,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 67.76,
+        "text": "just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate. Simultaneity comes apart, moving clocks run slow, moving rulers shrink, and the speed of light becomes a wall that nothing can cross. Everything today comes off those two postulates. That's the promise. Two sentences in and the rest is consequence. Let's start with the crack then. What's broken? Nothing is broken in the sense of a wrong prediction. That's what makes it subtle. By 1905, you have Maxwell's theory of electricity and magnetism, and it is spectacular. It unifies electricity, magnetism, and light into",
+        "distance": 0.9658639430999756
+      },
+      {
+        "end": 3125.6,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "text": "it's quietly confirming that 1905 paper. So the patent clock's spare time paper is running silently every time we find our way home. Every single time. Two postulates, written at a desk between patent applications, and the fixed backdrop of the universe, turned out to be a participant. Space stretches, time slows, the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies, thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen",
+        "distance": 0.9915711879730225
+      },
+      {
+        "end": 2302.56,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2254.48,
+        "text": "It's the most rigid democracy in physics. Every inertial observer, no exceptions, agrees on that one speed and disagrees about almost everything else. Lengths, durations, simultaneity. And now we can finally circle back and collect the debt from the beginning of the paper. Because remember the title is On the Electrodynamics of Moving Bodies. We've been doing kinematics, clocks and rulers. The second half of the paper is about what all this does to electricity and magnetism. And it pays off the magnet and conductor puzzle we opened with. Right, the two stories for one current. The electric field story and the magnetic force story. How does relativity heal that? By revealing that the electric field",
+        "distance": 1.0025806427001953
+      },
+      {
+        "end": 80.4,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 33.2,
+        "text": "George, I want to actually understand how a person talks themselves into that. What is Einstein even trying to fix when he sits down? He's trying to fix a crack that had been quietly widening in physics for about 40 years. And the beautiful thing is that the crack is not exotic. It's sitting in the most successful theory of the century. So here's the whole plan for today. We're going to start with that crack, the electrodynamics of moving bodies, and see why it forced a choice. Then Einstein makes two assumptions, just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate. Simultaneity comes apart, moving",
+        "distance": 1.0395123958587646
+      },
+      {
+        "end": 2914.56,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2867.84,
+        "text": "four-dimensional geometry, spacetime, where space and time are just different directions in one fabric. And that reframing is exactly what let Einstein, a decade on, ask what happens when that fabric can curve, which is gravity, general relativity. But that's another paper. Here's something that's bothering me on the way out, though. You've spent the whole hour telling me what observers disagree about, lengths, durations, whether things are simultaneous. Is there anything left that everybody agrees on? Or is it disagreement all the way down? There is one thing, and it's the deepest idea in the whole subject. It's what Minkowski saw. Observers disagree about the distance in space between two events,",
+        "distance": 1.0633245706558228
+      }
+    ]
+  },
+  "eval_05": {
+    "type": "explain_simply",
+    "query": "What does time dilation mean? Explain it simply, the way the Special Relativity episode describes it.",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "Time dilation is the idea that **a clock that is moving relative to you ticks more slowly than a clock that is at rest with you**.  \nFrom your point of view the moving clock\u2019s \u201cseconds\u201d are stretched out, so less time seems to pass on that clock while you measure a normal amount of time on yours.  \n\nThe episode even gives a concrete formula for how much slower the moving clock runs. The slowdown factor is called **\u03b3 (gamma)**, defined as  \n\n\\[\n\\gamma = \\frac{1}{\\sqrt{\\,1-\\frac{v^{2}}{c^{2}}\\,}},\n\\]\n\nwhere *v* is the speed of the moving clock and *c* is the speed of light. When *v* is tiny compared with *c*, \u03b3 is almost 1 and the effect is negligible; as *v* approaches *c*, \u03b3 grows large and the moving clock runs dramatically slower.  \n\nThe podcast uses the muon example to illustrate this: on Earth we explain why muons reach the ground by saying **their internal clocks run slow** (time dilation), even though in the muon\u2019s own frame its clock is \u201cperfectly normal\u201d and it lives its usual lifetime. This shows how the same physical process looks different in different frames because of time dilation.  \n\n**Key excerpts**  \n- \u201cThe moving clock ticks slower. Time itself, as read by that clock, is running slow\u2026 It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared.\u201d\u202f[Great Papers 01 \u2013 Einstein's Special Relativity @ 1085\u20111134s]  \n- \u201cWe on the ground explain the muon reaching us by saying its clock runs slow\u2026 In its own frame, its clock is perfectly normal.\u201d\u202f[Great Papers 01 \u2013 Einstein's Special Relativity @ 1291\u20111337s]  ",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "end": 1337.2
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1492.48,
+        "end": 1542.24
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "end": 1134.32
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 662.96,
+        "end": 710.4
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1953.36,
+        "end": 2003.04
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 1337.2,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "text": "We don't just believe time dilation, we get reigned on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clock's stretch. You also promised me rulers shrink. Same idea. Same idea, seen from the side. Let me get the length contraction from the muon we were just discussing, because it's a lovely consistency check. We on the ground explain the muon reaching us by saying its clock rams slow. But now ride along with the muon. In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life?",
+        "distance": 0.9244901537895203
+      },
+      {
+        "end": 1542.24,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1492.48,
+        "text": "Time depends on where something is. That is relativity of simultaneity, written as an equation. And it's the single most important term in the paper. Look at what it says. Two events that happen at the same time in my frame, but at different places get different times in yours. Because that minus position times v over c squared piece is different for each of them. The further apart they are, the bigger the disagreement. Concretely, if you have a row of clocks all synchronized in their own rest frame and you go flying past them, they don't all read the same to you. The ones further ahead in your direction of motion read earlier and earlier. People say it as a slogan, leading clocks lag. The clock out in front, in the direction of motion,",
+        "distance": 0.9593666791915894
+      },
+      {
+        "end": 1134.32,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "text": "The moving clock ticks slower. Time itself, as read by that clock, is running slow. From your point of view. And you can actually put a number, well a factor, on how much slower. You can, and it's the single most famous factor in the subject. It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared. Let me make that breathe. The ratio V over C is how fast you're going as a fraction of light speed. Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero,",
+        "distance": 0.9880818128585815
+      },
+      {
+        "end": 710.4,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 662.96,
+        "text": "the same distance over time, but they're in relative motion, then the only way out is that they must disagree about the distances and the times themselves. If the ratio comes out the same but the situation is different, the top and the bottom of the ratio, the space and the time, must be flexible. That's the escape hatch. Space and time are what bend so that the speed of light doesn't have to. So to keep light speed rigid, you make space and time negotiable. Where do you even start pulling on that thread? You start with time and specifically with a question that sounds too simple to matter. What does it mean for two things to happen at the same time? Einstein realized that before you can do any physics of moving bodies,",
+        "distance": 1.0008323192596436
+      },
+      {
+        "end": 2003.04,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1953.36,
+        "text": "confirmations that time is a road and different routes through it have different lengths. That genuinely unknots it for me. The symmetry is real and it's only broken by whoever actually changes their motion. Okay, we've bent time and bent space. Somewhere in here the speed of light becomes a wall. How does that fall out? It falls out of asking the most natural question left. How do velocities combine now? We saw that light refuses to obey speeds just add. But ordinary things do they add? If I'm on a train doing half the speed of light and I fire a ball forward, also at half the speed of light relative to the train, an outside observer sees the ball going, you'd say the whole speed of light, half plus half.",
+        "distance": 1.0147960186004639
+      }
+    ]
+  },
+  "eval_06": {
+    "type": "followup",
+    "query": "I didn't fully understand that example -- walk me through it again, step by step.",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "**Step\u2011by\u2011step walk\u2011through of the muon example**\n\n1. **What the muon is and why it matters**  \n   A muon is created high in Earth\u2019s atmosphere and lives only a few microseconds in its own rest frame. If it travelled at ordinary speeds, it would decay long before it could reach the ground.\n\n2. **Ground\u2011observer\u2019s view (the \u201clab\u201d frame)**  \n   * The muon is moving toward us at a speed *v* that is a large fraction of the speed of light *c*.  \n   * Because of **time dilation**, the muon\u2019s internal clock runs slower for us.  \n   * The slowdown factor is the famous **\u03b3 (gamma)**:  \n\n     \\[\n     \\gamma = \\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}}\n     \\]\n\n     (see the definition of \u03b3 in the first excerpt).  \n   * With \u03b3\u202f>\u202f1, the muon\u2019s lifetime as measured by us is **\u03b3\u202f\u00d7\u202fits normal lifetime**. That stretched lifetime is long enough for the muon to travel the distance from the upper atmosphere to the ground before decaying.  \n\n   *Excerpt:* \u201cWe on the ground explain the muon reaching us by saying its clock runs slow\u2026 In its own frame, its clock is perfectly normal.\u201d\u202f[1291\u20111337s]\n\n3. **Muon\u2019s own view (its rest frame)**  \n   * In the muon\u2019s frame its clock is **perfectly normal**\u2014it experiences its ordinary lifetime with no dilation because it is at rest relative to itself.  \n\n   *Excerpt:* \u201cIn its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself.\u201d\u202f[1323\u20111368s]\n\n   * However, from the muon\u2019s perspective the Earth and the entire atmosphere are moving upward at speed *v*.  \n   * Because of **length contraction**, the thickness of the atmosphere is **shortened** by the same factor \u03b3. The distance the muon has to travel is therefore **\u03b3\u2011times smaller** than the distance measured by a ground observer.  \n\n   *Excerpt:* \u201cFrom the muon's point of view, the atmosphere is the thing that's moving, rushing up at it near light speed, and that whole thickness of atmosphere is contracted\u2026 The distance it has to travel is shortened by exactly the factor gamma.\u201d\u202f[1323\u20111368s]\n\n4. **Both frames agree on the outcome**  \n   * Ground frame: muon lives longer (time dilation) \u2192 it can cross the full atmospheric distance.  \n   * Muon frame: muon lives its normal lifetime, but the distance is shorter (length contraction) \u2192 it can still cross.  \n\n   *Excerpt:* \u201cOne observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground.\u201d\u202f[1354\u20111403s]\n\n5. **Why we never notice this in everyday life**  \n   * At everyday speeds *v\u202f\u226a\u202fc*, \u03b3 is essentially 1, so clocks tick at the normal rate and the effect is imperceptible.  \n\n   *Excerpt:* \u201cWhen V is tiny compared to C \u2026 gamma is essentially one, and moving clocks tick at basically the normal rate.\u201d\u202f[1085\u20111134s]\n\n---\n\n**In short:**  \n- From Earth we say the muon\u2019s clock runs slow (time dilation) so it survives longer.  \n- From the muon we say its clock is normal, but the atmosphere is squashed (length contraction) so it has less distance to travel.  \n- Both explanations use the same factor \u03b3 and lead to the same physical result: the muon reaches the ground.\n\n**Excerpts used**  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1085\u20111134s] \u2013 definition of \u03b3 and why the effect is tiny at low speeds.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1291\u20111337s] \u2013 ground\u2011frame explanation of muon\u2019s slowed clock.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1323\u20111368s] \u2013 muon\u2011frame explanation of normal clock + contracted atmosphere.  \n- [Great Papers 01 \u2013 Einstein's Special Relativity @ 1354\u20111403s] \u2013 statement that both observers agree on the muon reaching the ground.",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "end": 1134.32
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1353.84,
+        "end": 1402.72
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1122.32,
+        "end": 1170.16
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "end": 1337.2
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1322.64,
+        "end": 1367.84
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 1134.32,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1085.44,
+        "text": "The moving clock ticks slower. Time itself, as read by that clock, is running slow. From your point of view. And you can actually put a number, well a factor, on how much slower. You can, and it's the single most famous factor in the subject. It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity one minus V squared over C squared. Let me make that breathe. The ratio V over C is how fast you're going as a fraction of light speed. Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero,",
+        "distance": 0.4749179482460022
+      },
+      {
+        "end": 1402.72,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1353.84,
+        "text": "exactly the factor gamma, short enough to cross in its normal lifetime. So one observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground. They must both get the same physical outcome. The muon either reaches the ground or it doesn't, and everyone has to agree on that. What they don't have to agree on is the explanation in terms of space versus time. One frame spends the effect on time, the other spends it on space, and it always balances. And that gives us the length contraction rule. An object in motion is shortened along its direction of travel by the factor gamma. A meter stick flying past you lengthwise is measured by you as shorter than a meter.",
+        "distance": 0.6054381132125854
+      },
+      {
+        "end": 1170.16,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1122.32,
+        "text": "Square it, subtract it from one, take the square root, and flip it over. When V is tiny compared to C, every day speeds, V over C is nearly zero, so gamma is essentially one, and moving clocks tick at basically the normal rate. That's why you've never noticed this. But as V climbs towards C, that quantity under the square root shrinks towards zero, and gamma blows up toward infinity. At about 87% of the speed of light, gamma is two. Moving clocks run at half speed, push closer to C, and they nearly freeze. So the moving clocks ticks are stretched by the factor gamma. Is this just light clocks being weird, or is it every clock?",
+        "distance": 0.6115680932998657
+      },
+      {
+        "end": 1337.2,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "text": "We don't just believe time dilation, we get reigned on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clock's stretch. You also promised me rulers shrink. Same idea. Same idea, seen from the side. Let me get the length contraction from the muon we were just discussing, because it's a lovely consistency check. We on the ground explain the muon reaching us by saying its clock rams slow. But now ride along with the muon. In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life?",
+        "distance": 0.6423834562301636
+      },
+      {
+        "end": 1367.84,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1322.64,
+        "text": "In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life? From the muon's point of view, the atmosphere is the thing that's moving, rushing up at it near light speed, and that whole thickness of atmosphere is contracted, squashed thin along the direction of motion. The distance it has to travel is shortened by exactly the factor gamma, short enough to cross in its normal lifetime. So one observer says your clock slowed, the other says your distance shrank, and they both correctly predict the muon hits the ground.",
+        "distance": 0.746639609336853
+      }
+    ]
+  },
+  "eval_07": {
+    "type": "out_of_scope",
+    "query": "What do these episodes say about quantum entanglement and Bell's theorem?",
+    "expect_refusal": true,
+    "actual_refused": true,
+    "refusal_correct": true,
+    "answer": "The supplied episodes don't seem to cover this topic, so I can't answer it from this collection.",
+    "citations": [],
+    "retrieved_debug": [
+      {
+        "end": 114.16,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 67.76,
+        "text": "just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate. Simultaneity comes apart, moving clocks run slow, moving rulers shrink, and the speed of light becomes a wall that nothing can cross. Everything today comes off those two postulates. That's the promise. Two sentences in and the rest is consequence. Let's start with the crack then. What's broken? Nothing is broken in the sense of a wrong prediction. That's what makes it subtle. By 1905, you have Maxwell's theory of electricity and magnetism, and it is spectacular. It unifies electricity, magnetism, and light into",
+        "distance": 1.3979562520980835
+      },
+      {
+        "end": 427.12,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 381.12,
+        "text": "Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome, to the chromosome being part protein, part DNA, to the information living in the DNA, to, what is DNA's structure? Each step made the question more physical, more chemical, until the last one was answerable with X-rays and metal models. By 1952, they were standing at that final door, and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time,",
+        "distance": 1.450238823890686
+      },
+      {
+        "end": 2426.64,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 2381.12,
+        "text": "aren't anywhere anymore. They're just erased. And that is a catastrophe because quantum mechanics is not allowed to erase information. One of the bedrock rules of quantum theory is that information is never truly lost. The present always retains, in principle, a complete record of the past. It's the quantum version of determinism and it's as central to quantum mechanics as anything. So we have a genuine collision between two of our most trusted theories. Hawking's own calculation says the radiation is exactly thermal, hence information free, hence the information is destroyed when the hole evaporates. Quantum mechanics says that's impossible. The information must come out somehow,",
+        "distance": 1.4589769840240479
+      },
+      {
+        "end": 2495.36,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 2449.52,
+        "text": "The information does come out. Famously Hawking himself eventually conceded a bet on it. But conceding that it must come out is not the same as understanding how. And the how is where the real action has been. It drove the invention of holography, of the deep dualities between gravity and ordinary quantum systems. And in just the last several years, a set of new calculations. People talk about islands and fine-grained entropy that seem to show the information leaking out after all in exactly the subtle correlations Hawking's approximation dropped. It feels close to resolved in certain idealised settings and still genuinely mysterious in the full realistic case.",
+        "distance": 1.468023419380188
+      },
+      {
+        "end": 2392.8,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 2345.6,
+        "text": "You form it by throwing in something specific. An encyclopedia, a star, your friend's diary, some very particular arrangement of matter, carrying a huge amount of detailed information. The hole radiates that mass back out slowly over its lifetime as featureless thermal radiation. And then it's gone, fully evaporated, vanished. Question, where did the information go? If the radiation was featureless and the hole is gone, then the specific details of whatever fell in aren't anywhere anymore. They're just erased. And that is a catastrophe because quantum mechanics is not allowed to erase information. One of the bedrock rules of quantum theory",
+        "distance": 1.487018346786499
+      }
+    ]
+  },
+  "eval_08": {
+    "type": "out_of_scope",
+    "query": "What's a good recipe for pizza dough?",
+    "expect_refusal": true,
+    "actual_refused": true,
+    "refusal_correct": true,
+    "answer": "The supplied episodes don't seem to cover this topic, so I can't answer it from this collection.",
+    "citations": [],
+    "retrieved_debug": [
+      {
+        "end": 458.88,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 413.84,
+        "text": "and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time, because the detective story quality is real. Clue one is the chemistry, what DNA is made of at the parts level. A strand of DNA is a long chain, and the chain has a repeating backbone made of two alternating pieces. A sugar, called deoxyribose, and a phosphate group. Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail,",
+        "distance": 1.6941076517105103
+      },
+      {
+        "end": 870.0,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 823.92,
+        "text": "was Linus Pauling, arguably the greatest chemist of the century, who had just triumphantly worked out a key piece of protein structure using this very model-building method. He was the favourite to crack DNA, too, and Watson and Crick knew it. There's a real sense of a clock ticking through the whole episode. And here's the twist. Early in 1953, Pauling actually published a proposed structure for DNA, and it was wrong. He put forward a triple helix, three strands, with the backbones on the inside, and he'd made a basic chemical slip, arranging the backbone in a form that simply wouldn't hold together. When Watson saw Pauling's manuscript",
+        "distance": 1.7143285274505615
+      },
+      {
+        "end": 768.24,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 722.56,
+        "text": "and how far you go along it before the spiral repeats. Franklin's data pinned those numbers down. The molecule is a helix of a definite, measurable diameter, repeating at a definite interval. So Clue 3 says it's a helix, and here are its measurements. So, by the time Watson and Crick sit down, the clues are a sugar-phosphate backbone with four bases as the alphabet, Chagaff's A equals T and G equals C, and Franklin's photo saying, helix, this wide, repeating this often. What do they do with that? They weren't doing experiments themselves, right? Correct, and this is a real feature of the story, not a footnote.",
+        "distance": 1.7827949523925781
+      },
+      {
+        "end": 495.76,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 448.16,
+        "text": "Sugar, phosphate, sugar, phosphate, all the way down, a monotonous rail. And hanging off each sugar, sticking out sideways from that rail, is one of four smaller molecules called bases. The four bases have names we'll shorten to their initials, A, T, G, and C. So picture a long rail with little flags sticking out of it, and each flag is one of four kinds. The message, whatever it is, has to be written in the sequence of those flags, the order of A's, T's, G's, and C's along the rail. That's the only place variety can live, because the backbone is always the same. Before we leave the parts, do those four bases have real names,",
+        "distance": 1.7921286821365356
+      },
+      {
+        "end": 1529.68,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 1482.4,
+        "text": "each one an exposed row of unpaired bases. But each of those single strands carries, in its sequence, the complete recipe for its missing partner, because of the pairing rule. So the cell just walks along each lonely strand, and wherever there's an exposed A, it brings in a fresh T. Wherever there's a G, it brings in a fresh C. Each old strand acts as a template that reconstructs its own complement. And when it's done, you don't have one double helix. You have two, each a perfect copy of the original, each made of one old strand, and one freshly built one. Oh, that's clean. You don't copy the whole thing as a unit, you split it in half and let each half rebuild the missing side.",
+        "distance": 1.796577632059752
+      }
+    ]
+  },
+  "eval_09": {
+    "type": "adversarial",
+    "query": "The episode says Einstein won his Nobel Prize for the theory of special relativity -- can you confirm that and explain why the Nobel committee chose it?",
+    "expect_refusal": true,
+    "actual_refused": false,
+    "refusal_correct": false,
+    "answer": "The excerpts you provided don\u2019t contain any mention of Einstein\u2019s Nobel Prize or the committee\u2019s reasons for awarding it. None of the quoted sections discuss the prize, so I can\u2019t confirm or explain that claim from the material you\u2019ve shared.  \n\n**Sources consulted:**  \n- [Great Papers 01 - Einstein's Special Relativity @ 0\u201147s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2400\u20112451s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 2254\u20112303s]  \n- [Great Papers 01 - Einstein's Special Relativity @ 3078\u20113126s]   (no Nobel\u2011prize content)",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "end": 3125.6
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2400.16,
+        "end": 2451.12
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 0.0,
+        "end": 47.04
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2254.48,
+        "end": 2302.56
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 3125.6,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "text": "it's quietly confirming that 1905 paper. So the patent clock's spare time paper is running silently every time we find our way home. Every single time. Two postulates, written at a desk between patent applications, and the fixed backdrop of the universe, turned out to be a participant. Space stretches, time slows, the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies, thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen",
+        "distance": 0.8627694845199585
+      },
+      {
+        "end": 2451.12,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2400.16,
+        "text": "carved up differently by observers in relative motion. And notice what Einstein did and didn't do here. He didn't modify Maxwell's equations to make this work. He kept them exactly in every frame. That was postulate one applied to electrodynamics and he changed space and time instead so that the equations could hold for everyone. He bent the stage to save the play. There's a phrase you used earlier that I keep coming back to. You didn't change the light, you changed the stage. That's really the whole thing isn't it? That's the whole thing in nine words. Every other physicist facing the aether trouble was trying to change the light or the matter or invent a mechanism. A drag, a contraction, a substance. Einstein left light exactly as",
+        "distance": 1.0518406629562378
+      },
+      {
+        "end": 47.04,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 0.0,
+        "text": "1905. A 26-year-old is examining patent applications at a desk in Bern, and in his spare hours he writes a paper with the almost boring title on the electrodynamics of moving bodies. No new experiment, no new particle, barely any references, and by the time you finish reading it, space and time. The two things everyone had assumed were the fixed, silent backdrop of everything are neither fixed nor silent. George, I want to actually understand how a person talks themselves into that. What is Einstein even trying to fix when he sits down? He's trying to fix a crack that had been quietly widening in physics for about 40 years.",
+        "distance": 1.0682413578033447
+      },
+      {
+        "end": 2302.56,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2254.48,
+        "text": "It's the most rigid democracy in physics. Every inertial observer, no exceptions, agrees on that one speed and disagrees about almost everything else. Lengths, durations, simultaneity. And now we can finally circle back and collect the debt from the beginning of the paper. Because remember the title is On the Electrodynamics of Moving Bodies. We've been doing kinematics, clocks and rulers. The second half of the paper is about what all this does to electricity and magnetism. And it pays off the magnet and conductor puzzle we opened with. Right, the two stories for one current. The electric field story and the magnetic force story. How does relativity heal that? By revealing that the electric field",
+        "distance": 1.069232702255249
+      },
+      {
+        "end": 80.4,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 33.2,
+        "text": "George, I want to actually understand how a person talks themselves into that. What is Einstein even trying to fix when he sits down? He's trying to fix a crack that had been quietly widening in physics for about 40 years. And the beautiful thing is that the crack is not exotic. It's sitting in the most successful theory of the century. So here's the whole plan for today. We're going to start with that crack, the electrodynamics of moving bodies, and see why it forced a choice. Then Einstein makes two assumptions, just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate. Simultaneity comes apart, moving",
+        "distance": 1.107275128364563
+      }
+    ]
+  },
+  "eval_10": {
+    "type": "routing",
+    "query": "Which episode should I listen to if I want to understand how scientists figured out the structure of DNA, and why that one?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "You should start with **\u201cGreat Papers\u202f03 \u2013 The Double Helix, Watson and Crick\u202f1953.\u201d**  \n\nWhy this episode?  \n- It opens by laying out the exact problem the scientists faced and the three key clues they had to work from, then walks through how they built the double\u2011helix model piece by piece\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s\u3011.  \n- It explains the logical \u201cdoor\u201d they walked through\u2014from knowing genes sit on chromosomes to asking what DNA looks like, and how the shape itself reveals the copying mechanism\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s\u3011.  \n- It also puts the discovery in its historical context, showing how other scientists (e.g., Linus\u202fPauling) were trying and failing, which highlights why Watson and\u202fCrick\u2019s approach succeeded\u3010Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s\u3011.  \n\nTogether, these sections make the episode a comprehensive guide to how the structure of DNA was figured out.  \n\n**Cited excerpts**  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 69-116s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 381-427s]  \n- [Great Papers 03 - The Double Helix, Watson and Crick 1953 @ 824-870s]",
+    "citations": [
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 69.04,
+        "end": 115.68
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 823.92,
+        "end": 870.0
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 381.12,
+        "end": 427.12
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 34.72,
+        "end": 79.52
+      },
+      {
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 343.52,
+        "end": 392.08
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 115.68,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 69.04,
+        "text": "turn out to be the same discovery. So here's our plan. First, I'll set up the problem they were actually facing, which is stranger than, what does DNA look like? It's, what kind of object could possibly do the two jobs a gene has to do at once? Then we'll lay out the clues on the table in 1953, because they didn't work in the dark. There were three big hints, and one of them is a photograph. Then we'll build the structure, piece by piece, the way they built it. Two chains, a backbone, and the pairing rule that is the whole ball game. And then we'll cash out that understated sentence, how a shape tells you how life copies itself, and deal squarely with the story of who got the credit.",
+        "distance": 0.8130238652229309
+      },
+      {
+        "end": 870.0,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 823.92,
+        "text": "was Linus Pauling, arguably the greatest chemist of the century, who had just triumphantly worked out a key piece of protein structure using this very model-building method. He was the favourite to crack DNA, too, and Watson and Crick knew it. There's a real sense of a clock ticking through the whole episode. And here's the twist. Early in 1953, Pauling actually published a proposed structure for DNA, and it was wrong. He put forward a triple helix, three strands, with the backbones on the inside, and he'd made a basic chemical slip, arranging the backbone in a form that simply wouldn't hold together. When Watson saw Pauling's manuscript",
+        "distance": 0.9273831248283386
+      },
+      {
+        "end": 427.12,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 381.12,
+        "text": "Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome, to the chromosome being part protein, part DNA, to the information living in the DNA, to, what is DNA's structure? Each step made the question more physical, more chemical, until the last one was answerable with X-rays and metal models. By 1952, they were standing at that final door, and the clues were about to lay out are what was on the table when they opened it. Okay, lay out the clues. You said three big hints. What did Watson and Crick actually have to work with? Let me put them on the table one at a time,",
+        "distance": 0.9796910285949707
+      },
+      {
+        "end": 79.52,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 34.72,
+        "text": "postulated immediately suggests a possible copying mechanism for the genetic material. George, that sentence is doing an enormous amount of quiet work. I want to understand what they just figured out and why a shape, just a shape, was the answer to the deepest question in biology. It's the answer to the deepest question in biology, precisely because it's a shape, and that's the thing I most want you to feel by the end of the hour, that here, uniquely, the structure of the molecule and the mechanism of life turn out to be the same discovery. So here's our plan. First, I'll set up the problem they were actually facing, which is stranger than, what does DNA look like?",
+        "distance": 0.982559084892273
+      },
+      {
+        "end": 392.08,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 343.52,
+        "text": "Work on the chromosomes, the little thread-like bodies inside a cell that divide up evenly when the cell splits, showed that genes sit along the chromosomes, lined up like beads on a string. So the gene now had an address. But a chromosome is made of two kinds of stuff mixed together, protein and DNA. So the question sharpened to, which of those two actually carries the information? And once the experiments answered the DNA, there was only one question left standing. What does the DNA look like? Because its shape must be how it does the job. Exactly. And that's the door Watson and Crick walked through. Notice the whole march, Mendel's abstract factor, to a gene with an address on a chromosome,",
+        "distance": 0.9856379628181458
+      }
+    ]
+  },
+  "eval_11": {
+    "type": "verifiability",
+    "query": "What evidence does the Special Relativity episode mention for the constancy of the speed of light?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "The episode points to two pieces of \u201cevidence\u201d for the second postulate:\n\n1. **Failure to detect any motion through the ether** \u2013 the fact that experiments never reveal an \u201cether wind\u201d shows that light does not change speed with the motion of the observer or the source.  \n2. **Direct thought\u2011experiments (and the underlying experiments that inspired them)** \u2013 whether a spaceship is moving toward you, moving away, or you try to chase a light beam, every inertial observer still measures the light\u2019s speed as exactly\u202fC, never\u202f1\u00bd\u202fC or any other value.\n\nThese points are used in the show to illustrate why the speed of light must be constant for all observers.\n\n**Citations**\n\n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 2758\u20112804s*: \u201cYou can't detect motion through the ether\u2026 Physics is the same for all steady observers, and light has one speed for all of them.\u201d  \n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 525\u2011573s*: \u201cPostulate two, the constancy of the speed of light\u2026 every inertial observer measures that same speed, regardless of how the source was moving when it emitted the light.\u201d  \n- *Great Papers 01 \u2013 Einstein's Special Relativity @ 562\u2011608s*: \u201cIf a spaceship flies toward me at half the speed of light\u2026 the light \u2026 reaches me at \u2026 just C\u2026 If the ship is flying away\u2026 still C\u2026 you still measure it pulling away from you at the full C.\u201d",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 524.96,
+        "end": 572.72
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 561.68,
+        "end": 608.4
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2757.52,
+        "end": 2804.08
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 99.44,
+        "end": 149.68
+      },
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "end": 3125.6
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 572.72,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 524.96,
+        "text": "you can't feel the 500 miles an hour, it feels like sitting still. You felt postulate one. Galileo knew it for mechanics, ships and dropped balls. Einstein's claim is that it holds for absolutely everything, including electricity, magnetism and light. And that including light is where the second postulate comes in. And it's the one that costs you your common sense. Postulate two, the constancy of the speed of light. Light travels through empty space at that one fixed speed, C. And every inertial observer measures that same speed, regardless of how the source was moving when it emitted the light. Wait, let me make sure I have the full weight of that. If a spaceship flies toward me at half",
+        "distance": 0.9209811687469482
+      },
+      {
+        "end": 608.4,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 561.68,
+        "text": "measures that same speed, regardless of how the source was moving when it emitted the light. Wait, let me make sure I have the full weight of that. If a spaceship flies toward me at half the speed of light and turns on a headlight, the light from that headlight reaches me at not one and a half times C, just C. Just C. And if the ship is flying away and shines the light, still C. And if you yourself then start chasing that light beam at enormous speed, trying to catch up, you still measure it pulling away from you at the full C. It refuses to slow down relative to you, no matter how hard you chase it. That is the postulate. And notice how violently it disagrees with the sound example,",
+        "distance": 0.9552205204963684
+      },
+      {
+        "end": 2804.08,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2757.52,
+        "text": "Same two postulates, one more consequence. So let me try to say the whole arc back because I want to feel the shape of it. Einstein starts with a discomfort, one current, two stories, and a stubborn fact. You can't detect motion through the ether. He turns those into two postulates. Physics is the same for all steady observers, and light has one speed for all of them. To keep light speed rigid, simultaneity has to become relative. There's no shared now. From that, moving clocks run slow and moving rulers shrink, both by the factor gamma, and each observer sees it happen to the other, with no contradiction because they never share",
+        "distance": 0.9634984135627747
+      },
+      {
+        "end": 149.68,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 99.44,
+        "text": "sense of a wrong prediction. That's what makes it subtle. By 1905, you have Maxwell's theory of electricity and magnetism, and it is spectacular. It unifies electricity, magnetism, and light into one set of equations, and out of those equations falls a specific number, the speed of light. The equations predict that light is a wave rippling through the electromagnetic field, and they hand you its speed, a definite value about 300,000 kilometers every second. And here's the question that should make you uneasy. That speed is measured relative to what? Relative to whatever you're standing on, surely. Like the speed of a train is relative to the platform. That's exactly the intuition, and it's exactly the one that's about to break.",
+        "distance": 0.9690791964530945
+      },
+      {
+        "end": 3125.6,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 3078.48,
+        "text": "it's quietly confirming that 1905 paper. So the patent clock's spare time paper is running silently every time we find our way home. Every single time. Two postulates, written at a desk between patent applications, and the fixed backdrop of the universe, turned out to be a participant. Space stretches, time slows, the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies, thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen",
+        "distance": 0.9860982298851013
+      }
+    ]
+  },
+  "eval_12": {
+    "type": "coverage_check",
+    "query": "Do these episodes cover string theory or extra dimensions?",
+    "expect_refusal": true,
+    "actual_refused": true,
+    "refusal_correct": true,
+    "answer": "The supplied episodes don't seem to cover this topic, so I can't answer it from this collection.",
+    "citations": [],
+    "retrieved_debug": [
+      {
+        "end": 2914.56,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 2867.84,
+        "text": "four-dimensional geometry, spacetime, where space and time are just different directions in one fabric. And that reframing is exactly what let Einstein, a decade on, ask what happens when that fabric can curve, which is gravity, general relativity. But that's another paper. Here's something that's bothering me on the way out, though. You've spent the whole hour telling me what observers disagree about, lengths, durations, whether things are simultaneous. Is there anything left that everybody agrees on? Or is it disagreement all the way down? There is one thing, and it's the deepest idea in the whole subject. It's what Minkowski saw. Observers disagree about the distance in space between two events,",
+        "distance": 1.2893866300582886
+      },
+      {
+        "end": 1938.4,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 1893.36,
+        "text": "For a box of gas, the entropy, the number of ways to arrange the insides grows with the volume, because that's where the stuff is. For a black hole, it grows with the area of the boundary, and that suggests something almost heretical, that all the information about what's inside a black hole is somehow encoded on its two-dimensional surface, not its three-dimensional interior. That single hint, information living on the boundary, grew into the holographic principle, the idea that a region of space and everything in it can be fully described by data on its edge, like a hologram. Hole frameworks for uniting gravity and quantum mechanics are built on it, and it all traces back to that factor.",
+        "distance": 1.3849513530731201
+      },
+      {
+        "end": 1772.72,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 1728.0,
+        "text": "Because the shape suggests it is not the same as we watched it happen. That's an important distinction, and I'm glad you're holding the line on it. No, they did not prove it in this paper. The paper proposes the structure and points in that one sentence at what it implies. The actual proof that DNA copies this way came a few years later, in 1958, from a now classic experiment by Matthew Messelsen and Franklin Stahl. They found a clever way to label the old strands versus the newly built ones, essentially weighing them, and they showed that after copying each new double helix really is one old strand plus one new strand exactly as the template idea predicts.",
+        "distance": 1.3904243872008604
+      },
+      {
+        "end": 1977.28,
+        "episode_id": "Great Papers 03 - The Double Helix, Watson and Crick 1953",
+        "start": 1931.76,
+        "text": "to the information side because you keep saying the message is the sequence. Only four letters. Come back to the thing people doubt it. How is four letters enough to write an organism? It's the same reason two symbols are enough to write anything a computer knows. Think about it. A language's power doesn't come from having many letters. It comes from length and order. With an alphabet of just four letters but a text millions or billions of letters long, the number of possible messages is beyond astronomical. Four choices at the first position times four at the second times four at the third on and on for billions of positions. The variety isn't in the size of the alphabet.",
+        "distance": 1.4030163570636252
+      },
+      {
+        "end": 2495.36,
+        "episode_id": "Great Papers 02 - How Black Holes Radiate, Hawking 1975",
+        "start": 2449.52,
+        "text": "The information does come out. Famously Hawking himself eventually conceded a bet on it. But conceding that it must come out is not the same as understanding how. And the how is where the real action has been. It drove the invention of holography, of the deep dualities between gravity and ordinary quantum systems. And in just the last several years, a set of new calculations. People talk about islands and fine-grained entropy that seem to show the information leaking out after all in exactly the subtle correlations Hawking's approximation dropped. It feels close to resolved in certain idealised settings and still genuinely mysterious in the full realistic case.",
+        "distance": 1.4136520624160767
+      }
+    ]
+  },
+  "eval_13": {
+    "type": "coverage_check",
+    "query": "Do these episodes cover the concept of time dilation?",
+    "expect_refusal": false,
+    "actual_refused": false,
+    "refusal_correct": true,
+    "answer": "Yes. The excerpt explicitly discusses time dilation\u2014mentioning how we \u201cdon\u2019t just believe time dilation,\u201d describing how a muon\u2019s clock runs slow from the ground\u2019s point of view, and explaining the effect from the muon\u2019s own frame.  \n\n**Source:**  \n- [Great Papers\u202f01 \u2013 Einstein's Special Relativity @\u202f1291\u20111337\u202fs]",
+    "citations": [
+      {
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "end": 1337.2
+      }
+    ],
+    "retrieved_debug": [
+      {
+        "end": 1337.2,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1291.44,
+        "text": "We don't just believe time dilation, we get reigned on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clock's stretch. You also promised me rulers shrink. Same idea. Same idea, seen from the side. Let me get the length contraction from the muon we were just discussing, because it's a lovely consistency check. We on the ground explain the muon reaching us by saying its clock rams slow. But now ride along with the muon. In its own frame, its clock is perfectly normal. It lives its ordinary couple of millions of a second, no dilation, because it's at rest relative to itself. So how does it possibly cross all that atmosphere in such a short life?",
+        "distance": 1.0724743604660034
+      },
+      {
+        "end": 1236.8,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1190.24,
+        "text": "notice them drifting apart, and announce, aha, I'm the one really moving. That would violate the principle that says you can't detect your own uniform motion. So to keep the principle intact, everything that measures time must slow by the identical factor. The moving light clock, the moving wristwatch, the moving biological aging, the moving atoms decay, all stretched by gamma together. It's not that clocks malfunction. Time for that moving system genuinely passes more slowly. I have to ask the obvious skeptics question, has anyone ever actually seen a moving clock run slow? Or is this a story we tell on trains that don't exist?",
+        "distance": 1.1379969120025635
+      },
+      {
+        "end": 1929.2,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1878.96,
+        "text": "notion of what now on earth means. Their line of simultaneity swings and a huge span of earth time that they'd been skipping over suddenly falls into their now. From the travellers own accounting earth's clock races forward during the turn around. Add it all up, slow coast out, big jump at the turn, slow coast back and the traveller computes that the home twin aged more. Both twins now agree and they agree with what the clocks read when they're standing together. So the missing time doesn't vanish, it's hiding in the moment the traveller flips around. And that flip is the thing only one of them experiences. Precisely. The asymmetry isn't smuggled in. It's the physical fact of who fired their engines.",
+        "distance": 1.14404296875
+      },
+      {
+        "end": 1964.72,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1918.4,
+        "text": "And that flip is the thing only one of them experiences. Precisely. The asymmetry isn't smuggled in. It's the physical fact of who fired their engines. And this is not a thought experiment anymore. It's been done with atomic clocks flown around the world on airliners which come back reading a hair behind clocks that stayed on the ground by just the amount the theory predicts. Flying is, very slightly, time travel into the future. So the twin situation isn't a paradox at all. It's one of relativity's most down-to-earth confirmations that time is a road and different routes through it have different lengths. That genuinely unknots it for me. The symmetry is real and it's only broken by whoever actually",
+        "distance": 1.1549971103668213
+      },
+      {
+        "end": 1305.12,
+        "episode_id": "Great Papers 01 - Einstein's Special Relativity",
+        "start": 1255.92,
+        "text": "and they come screaming down toward the ground at very close to the speed of light. Now do the bookkeeping the old way. Even at light speed, in a couple of millions of a second, they should only make it a fraction of the way down before decaying. Almost none should reach the ground. But floods of them reach the ground. Why? Because they're moving so fast that their internal decay clock is dilated, stretched by a large gamma. So from our point of view, they live far longer than their at rest lifetime. Long enough to complete the trip. We don't just believe time dilation, we get reigned on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clock's stretch. You also promised me rulers shrink. Same idea.",
+        "distance": 1.1652913093566895
+      }
+    ]
+  }
+}

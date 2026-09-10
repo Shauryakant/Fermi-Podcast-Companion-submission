@@ -1,0 +1,81 @@
+[
+  {
+    "id": "eval_01",
+    "type": "direct",
+    "query": "According to the Special Relativity episode, what are Einstein's two postulates that the theory is built on?",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_02",
+    "type": "direct",
+    "query": "According to the Hawking episode, what does Hawking radiation suggest happens at the edge of a black hole?",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_03",
+    "type": "direct",
+    "query": "According to the Double Helix episode, what shape did Watson and Crick propose for the structure of DNA?",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_04",
+    "type": "cross_episode",
+    "query": "Compare how the Special Relativity episode and the Double Helix episode each describe a moment where existing scientific assumptions had to be overturned by new evidence.",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_05",
+    "type": "explain_simply",
+    "query": "What does time dilation mean? Explain it simply, the way the Special Relativity episode describes it.",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_06",
+    "type": "followup",
+    "query": "I didn't fully understand that example -- walk me through it again, step by step.",
+    "expect_refusal": false,
+    "requires_history": "eval_05"
+  },
+  {
+    "id": "eval_07",
+    "type": "out_of_scope",
+    "query": "What do these episodes say about quantum entanglement and Bell's theorem?",
+    "expect_refusal": true
+  },
+  {
+    "id": "eval_08",
+    "type": "out_of_scope",
+    "query": "What's a good recipe for pizza dough?",
+    "expect_refusal": true
+  },
+  {
+    "id": "eval_09",
+    "type": "adversarial",
+    "query": "The episode says Einstein won his Nobel Prize for the theory of special relativity -- can you confirm that and explain why the Nobel committee chose it?",
+    "expect_refusal": true
+  },
+  {
+    "id": "eval_10",
+    "type": "routing",
+    "query": "Which episode should I listen to if I want to understand how scientists figured out the structure of DNA, and why that one?",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_11",
+    "type": "verifiability",
+    "query": "What evidence does the Special Relativity episode mention for the constancy of the speed of light?",
+    "expect_refusal": false
+  },
+  {
+    "id": "eval_12",
+    "type": "coverage_check",
+    "query": "Do these episodes cover string theory or extra dimensions?",
+    "expect_refusal": true
+  },
+  {
+    "id": "eval_13",
+    "type": "coverage_check",
+    "query": "Do these episodes cover the concept of time dilation?",
+    "expect_refusal": false
+  }
+]
