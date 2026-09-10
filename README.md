@@ -13,6 +13,7 @@ questions the supplied episodes don't cover.
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+pip install -r requirements-transcribe.txt   # only needed to transcribe audio locally
 ```
 
 **Mac/Linux:**
@@ -20,7 +21,17 @@ pip install -r requirements.txt
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install -r requirements-transcribe.txt   # only needed to transcribe audio locally
 ```
+
+`requirements.txt` has only what the chat app itself needs (chromadb, groq,
+streamlit, etc.) -- this is also what's used for the deployed version.
+`requirements-transcribe.txt` adds `faster-whisper`, which is only needed
+once, locally, to turn the raw mp3s into transcripts. It's kept separate
+because `faster-whisper`'s `av` dependency needs to compile from source and
+fails on some cloud build environments that lack `pkg-config` -- since the
+deployed app never re-transcribes audio (the transcripts are already
+committed to the repo), it doesn't need this dependency at all.
 
 Create a file named `.env` in the project root with your Groq key:
 ```
