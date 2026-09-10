@@ -126,7 +126,11 @@ def answer(
 
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     if chat_history:
-        messages.extend(chat_history)
+        clean_history = [
+            {"role": turn["role"], "content": turn["content"]}
+            for turn in chat_history
+        ]
+        messages.extend(clean_history)
     messages.append(
         {
             "role": "user",
