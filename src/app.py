@@ -81,10 +81,10 @@ query = None
 if st.session_state.get("pending_query"):
     query = st.session_state.pending_query
     st.session_state.pending_query = None
-else:
-    user_input = st.chat_input("Ask about these episodes...")
-    if user_input:
-        query = user_input
+
+user_input = st.chat_input("Ask about these episodes...")
+if user_input:
+    query = user_input
 
 if query:
     result = answer(query, chat_history=st.session_state.history, episode_filter=episode_filter)
